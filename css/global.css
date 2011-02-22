@@ -1,0 +1,428 @@
+/*------------------------------------------------------*
+*-- CSS Drupal--------------*
+*------------------------------------------------------*/
+
+/*------------------------------------------------*
+ *---  Provence Formation 2011 --*
+ *------------------------------------------------*/
+
+/**********STYLE POUR LES BLOCS*******************/
+
+/**----HEADER---***/
+
+
+/**----MIDDLE---***/
+#middle-content p{
+	color:#000;
+	padding: 3px;
+
+}
+
+.item-list ul li {
+list-style-image:none;
+list-style-position:none;
+list-style-type:none;
+margin:0 0 0.25em 1.5em;
+padding:0;
+}
+
+.item-list ul{
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+}
+
+/*style lien en savoir plus*/
+li.node_read_more a{
+color : red;
+text-decoration: none;
+text-align:left;
+}
+li.node_read_more a:hover{
+text-decoration: underline;
+}
+
+
+
+/*---------------------------*/
+/**----CONTENT TOP---***/
+#content-header{
+padding: 5px;
+}
+/**style du fil d'ariane**/
+.breadcrumb {
+color:#C0c0c0;
+text-decoration:none;
+}
+.breadcrumb a{
+color:#ADC821;
+text-decoration:none;
+}
+.breadcrumb a:hover{
+color:#000;
+text-decoration:underline;
+}
+/**----CONTENT BOTTOM---***/
+#content-top{}
+.taxonomy{
+text-align:right;
+padding: 3px;
+margin: 0px;
+}
+.taxonomy a{
+color: #FF00FF;
+text-decoration:none;
+}
+.taxonomy a:hover{
+text-decoration:underline;
+}
+/*----page login------*/
+#user-login{
+margin: auto;
+width: 450px;
+padding:10px 0;
+}
+/**----COLONNE GAUCHE---***/
+#left-content p{
+	color:#000;
+
+}
+#left-content a{
+	color:#666666;
+	text-decoration:none;
+}
+#left-content a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+#left-content li{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+/**----COLONNE DROITE---***/
+#right-content p{
+	color:#000;
+
+}
+#right-content a{
+	color:#666666;
+	text-decoration:none;
+}
+#right-content a:hover{
+	color:#990000;
+	text-decoration:underline;
+}
+#right-content li{
+	margin:0;
+	padding: 0;
+	list-style:none;
+}
+/**----FOOTER---***/
+#footer a{
+color: #9898a6;
+text-decoration:none;
+}
+#footer a:hover{
+color: #000000;
+}
+
+ /*------------------------------------------------------*
+  *------------ CSS H  ----*
+  *------------------------------------------------------*/
+  
+h1 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 20px;
+}
+  
+h2 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 18px;
+}
+h2.title{
+	margin: 5px;
+	padding: 0;
+	color:#000;
+	font-size: 18px;
+}
+h2.title a{
+	color:#EF1D1D;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 16px;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 14px;
+}
+h5 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 12px;
+}
+h6 {
+	margin: 0;
+	padding: 0;
+	color:#000;
+	font-size: 10px;
+}
+/*----------------------------------------------------------
+************  STYLES POUR LES LAYOUT **********************
+------------------------------------------------------------*/
+
+/*----------- STYLES POUR FICHE FORMATION ------------------*/
+h1.titre_fiche{
+    background: white url('../images/bg_coin_vierge.jpg') no-repeat top left;
+    display: table-cell;
+    height: auto;
+    padding: 40px 0 10px 20px;
+    color: #ADC821;
+     width: 175px;
+}
+
+h1.titre_pole_tertiaire{
+    background: white url('../images/bg_coin_fiche_tertiaire.jpg') no-repeat top left;
+    display: table-cell;
+    height: auto;
+    padding: 40px 0 10px 20px;
+    color: #ADC821;
+     width: 175px;
+}
+h1.titre_pole_tertiaire a{
+    text-decoration: none;
+    color: #ADC821;
+    padding: 0 0 0 40px;
+}
+h1.titre_pole_services{
+    background: white url('../images/bg_coin_fiche_services.jpg') no-repeat top left;
+    display: table-cell;
+    height: auto;
+    padding: 40px 0 10px 20px;
+    color: #ADC821;
+     width: 175px;
+}
+h1.titre_pole_services a{
+    text-decoration: none;
+    color: #ADC821;
+    padding: 0 0 0 40px;
+}
+h1.titre_pole_arts{
+    background: white url('../images/bg_coin_fiche_arts.jpg') no-repeat top left;
+    display: table-cell;
+    height: auto;
+    padding: 40px 0 10px 20px;
+    color: #ADC821;
+     width: 175px;
+}
+h1.titre_pole_arts a{
+    text-decoration: none;
+    color: #ADC821;
+    padding: 0 0 0 40px;
+}
+#diapo_fiche{
+     background: white url('../images/bg_diapo_fiche.jpg') no-repeat top left;
+     display: block;
+     margin: 0 auto;
+     padding: 7px 0 0 3px;
+     width: 167px;
+}
+#fiche_col_G2 h2{
+    font-family: arista,Trebuchet MS, sans-serif;
+    text-align: center;
+    color: #01ABCF;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+#table_fiche_formation{
+   margin: 0 auto;
+    width: 190px;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#table_fiche_formation tbody{
+    padding: 5px;
+   
+}
+#table_fiche_formation tr{
+    padding: 5px;
+}
+#table_fiche_formation td{
+    padding: 5px;
+}
+#table_fiche_formation a{
+    text-decoration: none;
+    color: #1F1F1F;
+    font-weight: bold;
+    padding: 3px;
+    display: list-item;
+    list-style: square inside none;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#table_fiche_formation .filefield-icon {
+display: none;
+}
+#table_fiche_formation a:hover{
+    color: white;
+    background: #ADC821;
+
+}
+#fiche_col_G2 h3.viewreference-title{
+    font-size: 16px;
+    color: #F39300;
+}
+#fiche_col_G3 h2{
+    font-size: 18px;
+    color: #F39300;
+}
+#fiche_col_G3 h3{
+    font-size: 16px;
+    color: #ACC624;
+}
+#fiche_col_G3 h4{
+    font-size: 14px;
+    color: #95127C;
+}
+#fiche_col_G3 h2 a{
+    font-size: 18px;
+    color: #F39300;
+}
+#fiche_col_G3 h3 a{
+    font-size: 16px;
+    color: #ACC624;
+}
+#fiche_col_G3 h4 a{
+    font-size: 14px;
+    color: #95127C;
+}
+#fiche_col_G3 h2 a:hover{
+    font-size: 18px;
+    color: #F39300;
+}
+#fiche_col_G3 h3 a:hover{
+    font-size: 16px;
+    color: #F39300;
+}
+#fiche_col_G3 h4 a:hover{
+    font-size: 14px;
+    color: #F39300;
+}
+#fiche_col_G3 p{
+    color: #1F1F1F;
+    padding: 5px;
+}
+#fiche_col_G3 p a{
+   text-decoration: underline;
+    color: #95127C;
+}
+#fiche_col_G3 p a:hover{
+    background: #AEC821;
+    color: white;
+}
+#fiche_col_G3 ul{
+   padding: 5px;
+}
+/*----------- STYLES POUR PAGE POLE ------------------*/
+h1.title-page-bloc{
+    font-size: 24px;
+    font-family: arista,Trebuchet MS, sans-serif;
+    text-align: center;
+    color: #911381;
+    text-transform: uppercase;
+    margin: 0 0 20px 0
+}
+h3.block-title{
+    font-size: 18px;
+    color: #AEC821;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+#middle-content-pole .view-content h3{
+    color: #95107D;
+    text-decoration: none;
+    padding: 2px;
+
+}
+#middle-content-pole .views-field-title {
+   font-size: 14px;
+
+}
+#middle-content-pole .views-field-title a{
+    color: #AEC821;
+    text-decoration: none;
+    padding: 2px;
+
+}
+#middle-content-pole .views-field-title a:hover{
+    background: #AEC821;
+    color: white;
+}
+#block-views-Formations_par_poles-block_1{
+    width: auto; 
+    background: white url('../images/bg_pole_tertiaire.jpg') no-repeat top left;
+    display: block;
+    padding: 60px 20px;
+
+}
+#block-views-Formations_par_poles-block_2{
+    width: auto;
+    background: white url('../images/bg_pole_services.jpg') no-repeat left -7px;
+    display: block;
+    padding: 60px 20px;
+
+}
+#block-views-Formations_par_poles-block_3{
+    width: auto;
+    background: white url('../images/bg_pole_arts.jpg') no-repeat top left;
+    display: block;
+    padding: 60px 20px;
+
+}
+
+/*POLE SERVICE LISTE*/
+#liste_formation_pole_services{
+    background: white url('../images/bg_coin_vierge.jpg') no-repeat top left;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 980px;
+}
+#liste_formation_pole_services h3{
+    color: #AEC821;
+    margin: 0 auto;
+    text-align: center;
+}
+#liste_formation_pole_services .view{
+    width: 99%;
+}
+#liste_formation_pole_services .view-content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#liste_formation_pole_services table{
+    margin: 0 auto;
+}
+#liste_formation_pole_services tbody{
+    margin: 0 auto;
+    padding: 0;
+}
+#liste_formation_pole_services table tr{
+    padding: 0;
+}
+#liste_formation_pole_services table td{
+    padding: 0;
+}

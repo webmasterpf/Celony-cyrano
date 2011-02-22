@@ -1,0 +1,205 @@
+/**
+Layout de positionnement des blocs
+Inclusion des polices en css3
+ */
+@font-face {
+    font-family : "Arista";
+    src: url(../typos/Arista2.0_light.eot); /* IE */
+    src: local("Arista"), url(../typos/Arista2.0_light.ttf) format('truetype');/* non-IE */
+}
+
+
+html {
+ margin: 0;
+ padding: 0;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: white;
+	color: gray;
+}
+ul,li,dl,dd,dt{
+    list-style-position: inside;
+}
+
+ /*------------------------------------------------------*
+  *--------    CSS BLOCS     						 ----*
+  *------------------------------------------------------*/
+
+
+#general{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+/*Haut de page  HEADER*/
+
+#header{
+	margin:0 auto;
+	padding:0;
+	width:990px;
+	height:auto;
+	background-color:white;
+}
+
+/*Contenu de page  CONTENT */
+
+#contentPage {
+	margin:0 auto;
+	padding:0;
+	width: 990px;
+	background-color:white;
+}
+#content-inner,#left-content,#right-content{
+height: 100%;
+}
+/*//////SOUS ENTETE/////*/
+#content-top{
+	margin:0 auto;
+	padding:5px;
+	width:850px;
+	height:auto;
+	background-color: white;
+	}
+	
+/*/// debut des colonnes ///*/
+#left-content{
+	float:left;
+	position:relative;
+	background-color:#00CC99;
+	width:200px;
+	left:0px;
+}
+
+/*/// partie de droite ///*/
+#right-content{
+	float:right;
+	position:relative;
+	background-color:#FF66CC;
+	width:200px;
+	right:0px;
+}
+/*inner content*/
+#content-inner{
+width:590px;
+margin:0 auto;
+float:left;
+background-color:yellow;
+}
+/*///    partie du centre   ///*/
+#middle-content{
+	float:left;
+	position:relative;
+	background-color:Azure;
+	width:auto;
+	padding:5px;
+}
+
+/*PIED DE CONTENU*/
+#content-bottom{
+background:#C0c0c0;
+width:590px;
+}
+
+/*Bas de page  FOOTER*/
+
+#footer{
+	margin:0 auto;
+	padding:5px 0;
+	width:980px;
+	background: white url(../images/bg_footer.jpg) no-repeat bottom right;
+	text-align: left;
+	color: #9898a6;
+        height:50px;
+        font-size: 11px;
+}
+
+
+#bloc_stats{
+    color:red;
+    margin:0 auto;
+    width:600px;
+}
+/**----Fin FOOTER---***/
+/*---------------------------------------------------
+LAYOUT POUR PAGE.TPL FICHE FORMATION
+---------------------------------------------------*/
+#content-inner-fiche-formation{
+    width: auto;
+    margin:0;
+float:left;
+background-color:transparent;
+}
+#middle-content-fiche-formation{
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL FICHE FORMATION
+---------------------------------------------------*/
+#fiche_col_G1{
+    float: left;
+    width: 200px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+     border-right: 1px solid #ADC821;
+}
+#fiche_col_G2{
+    float: left;
+    width: 208px;
+    background: transparent;
+    height: 100%;
+   
+    display: table-cell;
+}
+#fiche_col_G3{
+    float: left;
+    padding: 5px;
+    width: 560px;
+    background: transparent;
+    height: 100%;
+    border-left: 1px solid #91127D;
+    display: table-cell;
+}
+/*---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE VUEBLOC POLES
+---------------------------------------------------*/
+#content-inner-pole{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-pole{
+    width: auto;
+    padding: 5px;
+    float: left;
+
+}
+#bloc-gauche-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#bloc-centre-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#bloc-droit-pole{
+    width: 325px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
