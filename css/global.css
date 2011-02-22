@@ -426,3 +426,118 @@ h3.block-title{
 #liste_formation_pole_services table td{
     padding: 0;
 }
+/*----------------------------------------
+*****~~~~~~ PAGE LYCEE ~~~~~~~~~~~~*********
+------------------------------------------*/
+h1.titre_pl{
+    font-size: 24px;
+}
+h1.titre_pl a{}
+h1.titre_pl a:hover{}
+/*######-------- COLONNE G1 --------######*/
+#pageLycee_col_G1 h2{}
+#pageLycee_col_G1 h3{}
+#pageLycee_col_G1 h4{}
+#pageLycee_col_G1 p{}
+#pageLycee_col_G1 ul{}
+#pageLycee_col_G1 img{
+     border: 5px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
+}
+
+#pageLycee_col_G1 a{}
+#pageLycee_col_G1 a:hover{}
+
+#pageLycee_col_G1 h2 a{}
+#pageLycee_col_G1 h2 a:hover{}
+#pageLycee_col_G1 h3 a{}
+#pageLycee_col_G1 h3 a:hover{}
+#pageLycee_col_G1 h4 a{}
+#pageLycee_col_G1 h4 a:hover{}
+
+/*--------- LISTE VUE FICHIERS --------*/
+h3.titre_liste_doc{
+    text-align: center;
+    color: #AFC824;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0 em;
+    margin: 5px;
+
+}
+#liste_docs_joints{
+   margin: 0 auto;
+    width: 190px;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#liste_docs_joints ul{
+    padding: 5px;
+    list-style: none;
+
+}
+#liste_docs_joints li{
+    padding: 5px;
+}
+#liste_docs_joints li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    color:  #3F3F3F;
+    background: white;
+}
+#liste_docs_joints li a:hover{
+    text-decoration: none;
+    display: list-item;
+    background: #AEC721;
+    color: white;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#liste_docs_joints .filefield-icon {
+display: none;
+}
+/*------ LISTE VUE ACTU LYCEE ---------*/
+#bloc-actu-lycee{
+    width: 190px;
+    margin: 0 auto;
+}
+.liste-actu-lycee ul{
+    margin: 0 auto;
+    width: 190px;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    list-style: none;
+    padding: 5px;
+}
+#bloc-actu-lycee h3{
+    color: #94127F ;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0 em;
+    margin:5px;
+    display: block;
+    text-align: center;
+
+}
+.element-actu-lycee{
+    width: 185px;
+    margin: 2px 0;;
+    
+
+
+}
+.element-actu-lycee a{
+    color:  #3F3F3F;
+    background: #EAE0EF;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 2px;
+}
+.element-actu-lycee a:hover{
+    background: #AEC721;
+    color: white;
+}
