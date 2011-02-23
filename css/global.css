@@ -231,11 +231,15 @@ h1.titre_pole_arts a{
     padding: 0 0 0 40px;
 }
 #diapo_fiche{
-     background: white url('../images/bg_diapo_fiche.jpg') no-repeat top left;
+     /*background: white url('../images/bg_diapo_fiche.jpg') no-repeat top left;*/
      display: block;
      margin: 0 auto;
      padding: 7px 0 0 3px;
      width: 167px;
+     border: 2px solid #fff;
+    -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
 }
 #fiche_col_G2 h2{
     font-family: arista,Trebuchet MS, sans-serif;
