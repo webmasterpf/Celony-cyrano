@@ -460,8 +460,49 @@ h1.titre_pl a:hover{}
 #pageLycee_col_G1 h3 a:hover{}
 #pageLycee_col_G1 h4 a{}
 #pageLycee_col_G1 h4 a:hover{}
+/*######-------- COLONNE G2 --------######*/
+#pageLycee_col_G2 h2{}
+#pageLycee_col_G2 h3{}
+#pageLycee_col_G2 h4{}
+#pageLycee_col_G2 p{
+    padding: 5px;
+}
+#pageLycee_col_G2 ul{}
+#pageLycee_col_G2 img{
 
-/*--------- LISTE VUE FICHIERS --------*/
+}
+
+#pageLycee_col_G2 a{}
+#pageLycee_col_G2 a:hover{}
+
+#pageLycee_col_G2 h2 a{}
+#pageLycee_col_G2 h2 a:hover{}
+#pageLycee_col_G2 h3 a{}
+#pageLycee_col_G2 h3 a:hover{}
+#pageLycee_col_G2 h4 a{}
+#pageLycee_col_G2 h4 a:hover{}
+
+/*######-------- COLONNE G3 --------######*/
+#pageLycee_col_G3 h2{}
+#pageLycee_col_G3 h3{}
+#pageLycee_col_G3 h4{}
+#pageLycee_col_G3 p{}
+#pageLycee_col_G3 ul{}
+#pageLycee_col_G3 img{
+
+}
+
+#pageLycee_col_G3 a{}
+#pageLycee_col_G3 a:hover{}
+
+#pageLycee_col_G3 h2 a{}
+#pageLycee_col_G3 h2 a:hover{}
+#pageLycee_col_G3 h3 a{}
+#pageLycee_col_G3 h3 a:hover{}
+#pageLycee_col_G3 h4 a{}
+#pageLycee_col_G3 h4 a:hover{}
+
+/*--------- LISTE VUE FICHIERS DOCS JOINTS (Colonne G3)--------*/
 h3.titre_liste_doc{
     text-align: center;
     color: #AFC824;
@@ -470,40 +511,41 @@ h3.titre_liste_doc{
     margin: 5px;
 
 }
-#liste_docs_joints{
-   margin: 0 auto;
+#bloc_docs_utiles_plycee{
     width: 190px;
-    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    margin: 0 auto;
+}
+.liste_docs_joints ul{
+    width: 190px;
+    margin: 0 auto;
+     background: transparent url(../images/zebra-gros-clair.gif) repeat ;
     -moz-border-radius: 5px;
     border-radius: 5px;
-}
-#liste_docs_joints ul{
     padding: 5px;
     list-style: none;
-
 }
-#liste_docs_joints li{
+.liste_docs_joints li{
     padding: 5px;
 }
-#liste_docs_joints li a{
+.element_liste_docs_joints{
+    margin: 2px;
+}
+.element_liste_docs_joints  a{
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
     color:  #3F3F3F;
     background: white;
 }
-#liste_docs_joints li a:hover{
+.element_liste_docs_joints a:hover{
     text-decoration: none;
-    display: list-item;
     background: #AEC721;
     color: white;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
-#liste_docs_joints .filefield-icon {
+    }
+.liste_docs_joints .filefield-icon {
 display: none;
 }
-/*------ LISTE VUE ACTU LYCEE ---------*/
+/*------ LISTE VUE ACTU LYCEE (Colonne G3) ---------*/
 #bloc-actu-lycee{
     width: 190px;
     margin: 0 auto;
