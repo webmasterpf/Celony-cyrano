@@ -14,7 +14,22 @@
        <!--[if IE]>
       <link rel="stylesheet" type="text/css" href="<?php print $base_path . path_to_theme() ?>/css/for_ie.css" />
       <![endif]-->
-
+<!-- CU3ER content JavaScript part starts here   -->
+<script type="text/javascript" src="<?php print $base_path  ?>sites/all/3rdparty/cu3er/js/swfobject.js"></script>
+<script type="text/javascript" src="<?php print $base_path  ?>sites/all/3rdparty/cu3er/js/CU3ER.js"></script>
+<script type="text/javascript">
+  // add your FlashVars
+  var vars = { xml_location : '<?php print $base_path  ?>sites/all/3rdparty/cu3er/CU3ER-config.xml' };
+  // add Flash embedding parameters, etc. wmode, bgcolor...
+  var params = { bgcolor : '#ffffff' };
+  // Flash object attributes id and name
+  var attributes = { id:'CU3ER', name:'CU3ER' };
+  // dynamic embed of Flash, set the location of expressInstall if needed
+	swfobject.embedSWF('<?php print $base_path  ?>sites/all/3rdparty/cu3er/CU3ER.swf', "CU3ER", 550, 480, "10.0.0", "js/expressinstall.swf", vars, params, attributes );
+  // initialize CU3ER class containing Javascript controls and events for CU3ER
+  var CU3ER_object = new CU3ER("CU3ER");
+</script>
+<!-- CU3ER content JavaScript part ends here   -->
   </head>
 
  <body class="<?php print $body_classes; ?>">

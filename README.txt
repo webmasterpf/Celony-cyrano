@@ -1,19 +1,11 @@
-// $Id: README.txt,v 1.1 2009/01/31 12:27:43 johnalbin Exp $
+25 February 2011
 
-ABOUT STARK
+ABOUT THIS THEME
 -----------
 
-The Stark theme is provided for demonstration purposes; it uses Drupal's default
-HTML markup and CSS styles. It can be used as a troubleshooting tool to
-determine whether module-related CSS and JavaScript are interfering with a more
-complex theme, and can be used by designers interested in studying Drupal's
-default markup without the interference of changes commonly made by more complex
-themes.
-
-To avoid obscuring CSS added to the page by Drupal or a contrib module, the
-Stark theme itself has no styling, except just enough CSS to arrange the page in
-a traditional "Header, sidebars, content, and footer" layout. See the layout.css
-file for more information.
+This theme is a custom Drupal theme designed by Association Provence Formation's Webdesigner.
+Drupal integration and front-end developpement made by the Association Provence Formation's Webmaster.
+This theme is made for Drupal 6.
 
 
 ABOUT DRUPAL THEMING

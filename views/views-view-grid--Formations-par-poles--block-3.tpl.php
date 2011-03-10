@@ -11,7 +11,7 @@
  *
  * Template pour la vue-bloc Pole Services sur page Pôles formation
  *
- *
+ *Bloc pole arts appliqués
  */
 ?>
 <?php

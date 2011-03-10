@@ -234,8 +234,9 @@ h1.titre_pole_arts a{
      /*background: white url('../images/bg_diapo_fiche.jpg') no-repeat top left;*/
      display: block;
      margin: 0 auto;
-     padding: 7px 0 0 3px;
-     width: 167px;
+     padding: 0;
+     width: 165px;
+     height: auto;
      border: 2px solid #fff;
     -moz-box-shadow: #AAAAAA 0px 0px 5px ;
     -webkit-box-shadow: #AAAAAA 0px 0px 5px;
@@ -395,39 +396,50 @@ h3.block-title{
     padding: 60px 20px;
 
 }
+/*TABLE PAGE FORMATION PAR POLES*/
+.table_bloc_form_pole{
+    width: 98%;
+}
 
+.table_bloc_form_pole td{
+    margin: 2px 0;
+    padding: 4px 0;
+    border-bottom: 1px solid #94127F;
+}
+/*--------------------*/
 /*POLE SERVICE LISTE*/
-#liste_formation_pole_services{
+#liste_formation_pole_services, #liste_formation_pole_tertiaire, #liste_formation_pole_arts{
     background: white url('../images/bg_coin_vierge.jpg') no-repeat top left;
     margin: 0 auto;
     padding: 20px 0;
     width: 980px;
 }
-#liste_formation_pole_services h3{
+#liste_formation_pole_services h3,#liste_formation_pole_tertiaire h3, #liste_formation_pole_arts h3 {
     color: #AEC821;
     margin: 0 auto;
     text-align: center;
 }
-#liste_formation_pole_services .view{
+#liste_formation_pole_services .view, #liste_formation_pole_tertiaire view, #liste_formation_pole_arts view{
     width: 99%;
 }
-#liste_formation_pole_services .view-content{
+#liste_formation_pole_services .view-content, #liste_formation_pole_tertiaire view-content, #liste_formation_pole_arts view-content{
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
 }
 
-#liste_formation_pole_services table{
+#liste_formation_pole_services table,#liste_formation_pole_tertiaire table, #liste_formation_pole_arts table{
     margin: 0 auto;
+    text-align: center;
 }
-#liste_formation_pole_services tbody{
+#liste_formation_pole_services tbody, #liste_formation_pole_tertiaire tbody, #liste_formation_pole_arts tbody{
     margin: 0 auto;
     padding: 0;
 }
-#liste_formation_pole_services table tr{
+#liste_formation_pole_services table tr, #liste_formation_pole_tertiaire tr, #liste_formation_pole_arts tr{
     padding: 0;
 }
-#liste_formation_pole_services table td{
+#liste_formation_pole_services table td, #liste_formation_pole_tertiaire td, #liste_formation_pole_arts td{
     padding: 0;
 }
 /*----------------------------------------
@@ -515,7 +527,7 @@ h3.titre_liste_doc{
     width: 190px;
     margin: 0 auto;
 }
-.liste_docs_joints ul{
+.liste_docs_joints table{
     width: 190px;
     margin: 0 auto;
      background: transparent url(../images/zebra-gros-clair.gif) repeat ;
@@ -524,7 +536,7 @@ h3.titre_liste_doc{
     padding: 5px;
     list-style: none;
 }
-.liste_docs_joints li{
+.liste_docs_joints td{
     padding: 5px;
 }
 .element_liste_docs_joints{

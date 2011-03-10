@@ -10,9 +10,9 @@
     <?php endif; ?>
       <br clear="all"/>
     <!-- Diapo deco fiche formation -->
-    <?php
+   <?php
 global $theme_path;
-include ($theme_path.'/includes/inc_field_diapo_fiche_flash.php');
+include ($theme_path.'/includes/inc_field_diapo_slideshow_multimage.php');
 ?>
 
 </div><!-- fin colonne G1-->

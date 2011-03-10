@@ -1,4 +1,4 @@
-<!-- ______________________node-page_pole-1-2.tpl _______________________ -->
+<!-- ______________________node-page_pole-1-2.tpl - pole services _______________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 

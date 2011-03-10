@@ -14,6 +14,7 @@
     <h3><?php print $title; ?></h3>
   <?php endif; ?>
   <<?php print $options['type']; ?>>
+  
     <?php foreach ($rows as $id => $row): ?>
       <li class="element_liste_docs_joints"><?php print $row; ?></li>
     <?php endforeach; ?>
