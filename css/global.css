@@ -527,29 +527,32 @@ h3.titre_liste_doc{
     width: 190px;
     margin: 0 auto;
 }
-.liste_docs_joints table{
+.liste_docs_joints {
     width: 190px;
     margin: 0 auto;
      background: transparent url(../images/zebra-gros-clair.gif) repeat ;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px 5px;
     list-style: none;
 }
-.liste_docs_joints td{
-    padding: 5px;
+.liste_docs_joints div{
+    margin: 5px 0;
 }
-.element_liste_docs_joints{
-    margin: 2px;
+
+.liste_docs_joints span{
+    margin: 2px 0;
 }
-.element_liste_docs_joints  a{
+
+.liste_docs_joints  a{
     font-weight: bold;
     text-decoration: none;
-    padding: 5px;
+    padding: 3px;
     color:  #3F3F3F;
     background: white;
+    
 }
-.element_liste_docs_joints a:hover{
+.liste_docs_joints a:hover{
     text-decoration: none;
     background: #AEC721;
     color: white;
@@ -599,3 +602,68 @@ display: none;
     background: #AEC721;
     color: white;
 }
+/*----------------------------------------
+*****~~~~~~ PAGE VDL  ~~~~~~~~~~~~*********
+-----SORTIE-ACTION-EUROPE-PARTENAIRES-----
+------------------------------------------*/
+
+
+#table_infos_plus{}
+/*######-------- COLONNE G1 --------######*/
+#pageSortieActions_col_G1 h2{}
+#pageSortieActions_col_G1 h3{}
+#pageSortieActions_col_G1 h4{}
+#pageSortieActions_col_G1 p{}
+#pageSortieActions_col_G1 ul{}
+#pageSortieActions_col_G1 img{
+
+}
+
+#pageSortieActions_col_G1 a{}
+#pageSortieActions_col_G1 a:hover{}
+
+#pageSortieActions_col_G1 h2 a{}
+#pageSortieActions_col_G1 h2 a:hover{}
+#pageSortieActions_col_G1 h3 a{}
+#pageSortieActions_col_G1 h3 a:hover{}
+#pageSortieActions_col_G1 h4 a{}
+#pageSortieActions_col_G1 h4 a:hover{}
+/*######-------- COLONNE G2 --------######*/
+#pageSortieActions_col_G2 h2{}
+#pageSortieActions_col_G2 h3{}
+#pageSortieActions_col_G2 h4{}
+#pageSortieActions_col_G2 p{}
+#pageSortieActions_col_G2 ul{}
+#pageSortieActions_col_G2 img{
+
+}
+
+#pageSortieActions_col_G2 a{}
+#pageSortieActions_col_G2 a:hover{}
+
+#pageSortieActions_col_G2 h2 a{}
+#pageSortieActions_col_G2 h2 a:hover{}
+#pageSortieActions_col_G2 h3 a{}
+#pageSortieActions_col_G2 h3 a:hover{}
+#pageSortieActions_col_G2 h4 a{}
+#pageSortieActions_col_G2 h4 a:hover{}
+
+/*######-------- COLONNE G3 --------######*/
+#pageSortieActions_col_G3 h2{}
+#pageSortieActions_col_G3 h3{}
+#pageSortieActions_col_G3 h4{}
+#pageSortieActions_col_G3 p{}
+#pageSortieActions_col_G3 ul{}
+#pageSortieActions_col_G3 img{
+
+}
+
+#pageSortieActions_col_G3 a{}
+#pageSortieActions_col_G3 a:hover{}
+
+#pageSortieActions_col_G3 h2 a{}
+#pageSortieActions_col_G3 h2 a:hover{}
+#pageSortieActions_col_G3 h3 a{}
+#pageSortieActions_col_G3 h3 a:hover{}
+#pageSortieActions_col_G3 h4 a{}
+#pageSortieActions_col_G3 h4 a:hover{}

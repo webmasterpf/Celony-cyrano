@@ -1,5 +1,5 @@
 <?php include "inc_header.php"; ?>
- <!-- ______________________ LAYOUT PAGE FICHE FORMATION OVERRIDE PAR NODE.TPL CUSTOM _______________________ -->
+ <!-- ______________________ LAYOUT PAGE SORTIE ACTION CELONY PAGE.TPL OVERRIDE PAR NODE.TPL CUSTOM_______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
       <div id="contentPage">
@@ -11,11 +11,12 @@
 
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
-	  
-      
-
-         <!-- ______________________ CONTENT INNER _______________________ -->
-        <div id="content-inner-fiche-formation">
+	
+        <!-- ______________________ CONTENT INNER _______________________ -->
+        <div id="content-inner-vdl">
+		             
+		
+           
 
           <?php if ($mission || $messages || $help || $tabs): ?>
             <div id="content-header">              
@@ -35,8 +36,8 @@
             </div> <!-- /#content-header -->
           <?php endif; ?>
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
-          <div id="middle-content-fiche-formation">
-          
+          <div id="middle-content-vdl">
+           <!-- <pre> <?php print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
             <?php print $content; ?>
               <?php print $feed_icons; ?>
           </div> <!-- /#content-area -->
@@ -57,6 +58,7 @@
 
        
 		
+
    
     	 <br clear="all"/>
          <!-- ______________________ CONTENU BAS _______________________ -->

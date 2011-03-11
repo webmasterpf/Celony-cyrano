@@ -254,3 +254,45 @@ LAYOUT POUR NODE.TPL PAGE LYCEE
     height: 100%;
     display: table-cell;
 }
+/*---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE LYCEE
+---------------------------------------------------*/
+#content-inner-vdl{
+    width: auto;
+    margin:0;
+    float:left;
+    background-color:transparent;
+}
+#middle-content-vdl{
+    width: auto;
+    padding: 5px;
+    float: left;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE VDL
+---------------------------------------------------*/
+
+#pageSortieActions_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+#pageSortieActions_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+}
+#pageSortieActions_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}
