@@ -30,6 +30,9 @@
   var CU3ER_object = new CU3ER("CU3ER");
 </script>
 <!-- CU3ER content JavaScript part ends here   -->
+<!-- Start CU3OX.com HEAD section id=1 -->
+<script language="JavaScript" src="<?php print $base_path  ?>sites/all/3rdparty/cu3ox/engine/swfobject.js" type="text/javascript"></script>
+<!-- Start CU3OX.com HEAD section -->
   </head>
 
  <body class="<?php print $body_classes; ?>">

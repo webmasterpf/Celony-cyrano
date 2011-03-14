@@ -5,24 +5,15 @@
   <!-- <pre> <?php print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
 <div id="pageSortieActions_col_G1">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
-     <h1 class="titre_pl"><?php print $title; ?></h1>
+     <h1 class="titre_vdl_sortie"><?php print $title; ?></h1>
      
     <?php endif; ?>
       <br clear="all"/>
        <!-- Table pour infos en plus -->
-       <table id="table_infos_plus" border="0">
-           <tbody>
-               <tr>
-                   <td> <p>Sortie réalisée dans le cadre de la formation</p><br>
-    <?php  print $node->field_relatif_formation[0]['view'] /*Noderef fiche*/ ?>
-                   </td>
-                   <td><?php  print $node->field_fiche_action[0]['view'] /*Fiche action*/ ?></td>
-                   <td><?php  print $node->field_lien_utile_vdl[0]['view'] /*Fiche action*/ ?></td>
-                   <td><?php  print $node->field_lien_utile_vdl[1]['view'] /*Fiche action*/ ?></td>
-                   <td><?php  print $node->field_lien_utile_vdl[2]['view'] /*Fiche action*/ ?></td>
-               </tr>
-           </tbody>
-       </table>
+        <?php
+global $theme_path;
+include ($theme_path.'/includes/inc_table_infos_plus_vdl.php');
+?>
 
    
 </div>
@@ -47,9 +38,9 @@
     <div class="content">
    
 
-         <?php if ($node->field_vue_autres_vdl[0]['view']): /*Affichage conditionnel du bloc Autres sorties*/?>
+         <?php if ($node->field_liste_autres_vdl[0]['view']): /*Affichage conditionnel du bloc Autres sorties*/?>
          <div id="bloc-autres-vdl">
-         <?php  print $node->field_vue_autres_vdl[0]['view'] /*Autres sorties selon taxo type de vdl*/ ?>
+         <?php  print $node->field_liste_autres_vdl[0]['view'] /*Autres sorties selon taxo type de vdl*/ ?>
          </div>
                  <?php endif;?>
     </div>

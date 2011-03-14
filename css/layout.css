@@ -8,13 +8,6 @@ Définition des effets CC3 pour tout le site
     src: url(../typos/Arista2.0_light.eot); /* IE */
     src: local("Arista"), url(../typos/Arista2.0_light.ttf) format('truetype');/* non-IE */
 }
-/*------- EFFETS VISUELS --------------*/
-.ombrage {
-    border: 5px solid #fff;
-    -moz-box-shadow: 8px 8px 12px #aaa;
-    -webkit-box-shadow: 8px 8px 12px #aaa;
-    box-shadow: 8px 8px 12px #555;
-    }
 
 html {
  margin: 0;

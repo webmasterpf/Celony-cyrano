@@ -5,7 +5,19 @@
 /*------------------------------------------------*
  *---  Provence Formation 2011 --*
  *------------------------------------------------*/
+/*------- EFFETS VISUELS GENERIQUES--------------*/
+.ombrage {
+    border: 5px solid #fff;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    box-shadow: 8px 8px 12px #555;
+    }
+.ombrage_bas {
 
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+    }
 /**********STYLE POUR LES BLOCS*******************/
 
 /**----HEADER---***/
@@ -13,7 +25,7 @@
 
 /**----MIDDLE---***/
 #middle-content p{
-	color:#000;
+	
 	padding: 3px;
 
 }
@@ -606,9 +618,47 @@ display: none;
 *****~~~~~~ PAGE VDL  ~~~~~~~~~~~~*********
 -----SORTIE-ACTION-EUROPE-PARTENAIRES-----
 ------------------------------------------*/
+h1.titre_vdl_sortie{
+    font-size: 24px;
+    color: #AEC721;
+}
 
+#table_infos_plus{
+    margin: 0 auto;
+    width: 170px;
+    background: transparent url('../images/bg_infos_plus_vdl.jpg') no-repeat left 25px;
+}
+#table_infos_plus h3{
+   font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #01ABCF;
+   font-size: 1.5em;
+   margin: 5px 0;
+}
+#table_infos_plus tr{
+    background: transparent url('//../images/sep_infos_plus_vdl.jpg') no-repeat bottom 20px;
+    
+}
+#table_infos_plus td{
+    padding: 3px 0 6px 10px;
+}
+#table_infos_plus hr{
+    border-bottom: 1px solid #01ABCF;
+    width: 120px;
+    margin: 0 auto;
+}
 
-#table_infos_plus{}
+#table_infos_plus a{
+    color: #01ABCF;
+    text-decoration: none;
+    text-align: center;
+    }
+#table_infos_plus a:hover{
+    text-decoration: underline;
+}
+#table_infos_plus .filefield-icon {
+display: none;
+}
 /*######-------- COLONNE G1 --------######*/
 #pageSortieActions_col_G1 h2{}
 #pageSortieActions_col_G1 h3{}
@@ -632,7 +682,10 @@ display: none;
 #pageSortieActions_col_G2 h2{}
 #pageSortieActions_col_G2 h3{}
 #pageSortieActions_col_G2 h4{}
-#pageSortieActions_col_G2 p{}
+#pageSortieActions_col_G2 p{
+    padding: 5px;
+    color: 
+}
 #pageSortieActions_col_G2 ul{}
 #pageSortieActions_col_G2 img{
 
