@@ -289,3 +289,50 @@ LAYOUT POUR NODE.TPL PAGE VDL
     height: 100%;
     display: table-cell;
 }
+/*---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE VDL-LISTE
+---------------------------------------------------*/
+
+/*inner content*/
+#content-inner-vdl{
+    width:auto;
+    margin:0 auto;
+    float:left;
+ 
+}
+/*///    partie du centre   ///*/
+#middle-content-vdl{
+	float:left;
+	position:relative;
+	background-color:Azure;
+	width:auto;
+	padding:5px;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE VDL LISTE ARCHIVE
+---------------------------------------------------*/
+
+#pageVdl_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+#pageVdl_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+}
+#pageVdl_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}

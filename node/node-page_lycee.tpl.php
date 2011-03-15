@@ -34,15 +34,15 @@
 
        
    
-   <div id="bloc_docs_utiles_plycee">
- <?php  print views_embed_view('Fichiers_doc_joints','page_1',$view_args);/*Liste des fichiers joints*/ ?>
-   </div>
-         <br clear="all"/>
-         <?php if ($node->field_vue_actus_lycee[0]['view']): ?>
-         <div id="bloc-actu-lycee">
-         <?php  print $node->field_vue_actus_lycee[0]['view'] /*Vue actus du lycée*/ ?>
-         </div>
-                 <?php endif;?>
+        <div id="bloc_docs_utiles_plycee">
+               <?php  print views_embed_view('Fichiers_doc_joints','page_1',$view_args);/*Liste des fichiers joints*/ ?>
+        </div>
+        <br clear="all"/>
+           <?php if ($node->field_vue_actus_lycee[0]['view']): ?>
+        <div id="bloc-actu-lycee">
+                   <?php  print $node->field_vue_actus_lycee[0]['view'] /*Vue actus du lycée*/ ?>
+        </div>
+           <?php endif;?>
     </div>
 
     <?php if ($terms): ?>
@@ -50,7 +50,7 @@
     <?php endif;?>
 
     <?php if ($links): ?>
-      <div class="links"> <?php print $links; ?></div>
+      <div class="links"> <?php //print $links; ?></div>
     <?php endif; ?>
 
 </div>

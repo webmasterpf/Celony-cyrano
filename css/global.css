@@ -459,6 +459,8 @@ h3.block-title{
 ------------------------------------------*/
 h1.titre_pl{
     font-size: 24px;
+    color: #911381;
+    line-height: 1.0em
 }
 h1.titre_pl a{}
 h1.titre_pl a:hover{}
@@ -485,13 +487,24 @@ h1.titre_pl a:hover{}
 #pageLycee_col_G1 h4 a{}
 #pageLycee_col_G1 h4 a:hover{}
 /*######-------- COLONNE G2 --------######*/
-#pageLycee_col_G2 h2{}
-#pageLycee_col_G2 h3{}
-#pageLycee_col_G2 h4{}
+#pageLycee_col_G2 h2{
+    color: #ACC624;
+    padding: 5px;
+}
+#pageLycee_col_G2 h3{
+    color: #911381;
+    padding: 5px;
+}
+#pageLycee_col_G2 h4{
+    padding: 5px;
+    color: #F29803;
+}
 #pageLycee_col_G2 p{
     padding: 5px;
 }
-#pageLycee_col_G2 ul{}
+#pageLycee_col_G2 ul{
+    padding: 5px;
+}
 #pageLycee_col_G2 img{
 
 }
@@ -720,3 +733,105 @@ display: none;
 #pageSortieActions_col_G3 h3 a:hover{}
 #pageSortieActions_col_G3 h4 a{}
 #pageSortieActions_col_G3 h4 a:hover{}
+
+/*----------------------------------------
+*****~~~~~~ PAGE VDL  ~~~~~~~~~~~~*********
+-----LISTE DES VDL - TEMPLATE VUES - LAYOUT CSS-----
+------------------------------------------*/
+h1.titre_vdl{
+    font-size: 24px;
+    color: #AEC721;
+    line-height: 1.0em;
+}
+/*######-------- COLONNE G1 --------######*/
+#pageVdl_col_G1 h2{}
+#pageVdl_col_G1 h3{}
+#pageVdl_col_G1 h4{}
+#pageVdl_col_G1 p{}
+#pageVdl_col_G1 ul{}
+#pageVdl_col_G1 img{
+
+}
+
+#pageVdl_col_G1 a{}
+#pageVdl_col_G1 a:hover{}
+
+#pageVdl_col_G1 h2 a{}
+#pageVdl_col_G1 h2 a:hover{}
+#pageVdl_col_G1 h3 a{}
+#pageVdl_col_G1 h3 a:hover{}
+#pageVdl_col_G1 h4 a{}
+#pageVdl_col_G1 h4 a:hover{}
+/*######-------- COLONNE G2 --------######*/
+#pageVdl_col_G2 h2{}
+#pageVdl_col_G2 h3{}
+#pageVdl_col_G2 h4{}
+#pageVdl_col_G2 p{
+    padding: 5px;
+    
+}
+#pageVdl_col_G2 ul{}
+#pageVdl_col_G2 img{
+
+}
+
+#pageVdl_col_G2 a{}
+#pageVdl_col_G2 a:hover{}
+
+#pageVdl_col_G2 h2 a{}
+#pageVdl_col_G2 h2 a:hover{}
+#pageVdl_col_G2 h3 a{}
+#pageVdl_col_G2 h3 a:hover{}
+#pageVdl_col_G2 h4 a{}
+#pageVdl_col_G2 h4 a:hover{}
+
+/*######-------- COLONNE G3 --------######*/
+#pageVdl_col_G3 h2{}
+#pageVdl_col_G3 h3{}
+#pageVdl_col_G3 h4{}
+#pageVdl_col_G3 p{}
+#pageVdl_col_G3 ul{}
+#pageVdl_col_G3 img{
+
+}
+
+#pageVdl_col_G3 a{}
+#pageVdl_col_G3 a:hover{}
+
+#pageVdl_col_G3 h2 a{}
+#pageVdl_col_G3 h2 a:hover{}
+#pageVdl_col_G3 h3 a{}
+#pageVdl_col_G3 h3 a:hover{}
+#pageVdl_col_G3 h4 a{}
+#pageVdl_col_G3 h4 a:hover{}
+
+/*Table pour la vue filtre dyn sur tid*/
+#table-bloc-vdl-liste{
+    width: 550px;
+    margin: 0 auto;
+    border: 0;
+}
+#table-bloc-vdl-liste tbody{}
+#table-bloc-vdl-liste tr{
+    margin: 3px;
+    border: 0;
+}
+#table-bloc-vdl-liste td{
+    background: white;
+    border: 0;
+    margin: 2px 0;
+    padding: 5px;
+}
+#table-bloc-vdl-liste td:hover{
+    background: #AEC81F;
+}
+#table-bloc-vdl-liste p{}
+#table-bloc-vdl-liste a{
+    color: #950F7E;
+    text-decoration: none;
+    font-weight: bold;
+}
+#table-bloc-vdl-liste a:hover{
+    text-decoration: underline;
+    color: white;
+}
