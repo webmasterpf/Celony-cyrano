@@ -28,12 +28,15 @@ $term = preg_replace('<code>\s+</code>', '<em>', trim($term));
   return ($NomTermeValide);
 }
 
-
 function cyrano_ce_preprocess_node(&$vars, $hook) {
-    //Partie regions dans node.tpl
+//Partie regions dans node.tpl- ajoute les regions utiles au node.tpl
  $vars['pole_bloc_G'] = theme('blocks', 'pole_bloc_G');
  $vars['pole_bloc_C'] = theme('blocks', 'pole_bloc_C');
  $vars['pole_bloc_D'] = theme('blocks', 'pole_bloc_D');
+ $vars['col_G1'] = theme('blocks', 'col_G1');
+ $vars['col_G2'] = theme('blocks', 'col_G2');
+ $vars['col_G3'] = theme('blocks', 'col_G3');
+ //
 //Partie template node.tpl
 $node = $vars['node'];
 $lesTypes=array('page_fiche_formation', 'page_pole');

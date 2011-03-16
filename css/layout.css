@@ -304,7 +304,7 @@ LAYOUT POUR PAGE.TPL PAGE VDL-LISTE
 #middle-content-vdl{
 	float:left;
 	position:relative;
-	background-color:Azure;
+	background-color:transparent;
 	width:auto;
 	padding:5px;
 }
@@ -327,6 +327,7 @@ LAYOUT POUR NODE.TPL PAGE VDL LISTE ARCHIVE
     display: table-cell;
      border-right: 1px solid #ADC821;
      border-left: 1px solid #91127D;
+     padding: 5px;
 }
 #pageVdl_col_G3{
     float: left;

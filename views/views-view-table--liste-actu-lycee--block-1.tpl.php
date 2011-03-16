@@ -37,9 +37,9 @@
   </thead>
   <tbody>
     <?php foreach ($rows as $count => $row): ?>
-      <tr class="<?php print implode(' ', $row_classes[$count]); ?>">
+      <tr <?php print implode(' ', $row_classes[$count]); ?>">
         <?php foreach ($row as $field => $content): ?>
-          <td class="views-field views-field-<?php print $fields[$field]; ?>">
+          <td class="table_tr_ombrage_bas views-field views-field-<?php print $fields[$field]; ?>">
             <?php print $content; ?>
           </td>
         <?php endforeach; ?>

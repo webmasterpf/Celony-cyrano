@@ -6,9 +6,13 @@
 <div id="pageVdl_col_G1">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_vdl"><?php print $title; ?></h1>
-     
+     <br clear="all"/>
     <?php endif; ?>
-      <br clear="all"/>
+              <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_region_col_G1.php');
+              ?>
+      
        <!-- Deco page-->
     <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>
 </div>
@@ -21,7 +25,7 @@
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value'];
       print $node->field_vue_liste_vdl[0]['view'];/*Les vdl archives et en cours*/
-
+     /*Pour les termes Sortie : 15 - Europe : 13 - Partenaires : 14 */
       ?>
     
 </div>

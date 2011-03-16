@@ -18,6 +18,11 @@
     -webkit-box-shadow: 2px 2px 5px #aaa;
     box-shadow: 2px 2px 5px #555;
     }
+.table_tr_ombrage_bas{
+        -moz-box-shadow: 1px 2px 2px #aaa;
+        -webkit-box-shadow: 1px 2px 2px #aaa;
+        box-shadow: 1px 2px 2px #555;
+    }
 /**********STYLE POUR LES BLOCS*******************/
 
 /**----HEADER---***/
@@ -672,6 +677,33 @@ h1.titre_vdl_sortie{
 #table_infos_plus .filefield-icon {
 display: none;
 }
+/*------- LISTE VDL SIMILAIRE ------------*/
+#bloc-autres-vdl{}
+#liste-vdl-similaires{
+    width: 200px;
+    margin: 0 auto;
+     background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#bloc-autres-vdl h3{
+   font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #01ABCF;
+   font-size: 1.5em;
+   margin: 5px 0;
+}
+#liste-vdl-similaires ul{}
+#liste-vdl-similaires li{}
+#liste-vdl-similaires li a{
+    background: #EFEFEF;
+    display: block;
+    color: #4F4F4F;
+}
+#liste-vdl-similaires li a:hover{
+    background: #AEC721;
+    color: white;
+}
 /*######-------- COLONNE G1 --------######*/
 #pageSortieActions_col_G1 h2{}
 #pageSortieActions_col_G1 h3{}
@@ -811,16 +843,22 @@ h1.titre_vdl{
     margin: 0 auto;
     border: 0;
 }
+#table-bloc-vdl-liste thead th{
+    border-bottom: 3px solid #AEC81F;
+}
 #table-bloc-vdl-liste tbody{}
 #table-bloc-vdl-liste tr{
     margin: 3px;
-    border: 0;
+    
+
 }
 #table-bloc-vdl-liste td{
     background: white;
     border: 0;
     margin: 2px 0;
     padding: 5px;
+    display: block;
+    border-bottom: 1px solid #950F7E;
 }
 #table-bloc-vdl-liste td:hover{
     background: #AEC81F;
@@ -834,4 +872,29 @@ h1.titre_vdl{
 #table-bloc-vdl-liste a:hover{
     text-decoration: underline;
     color: white;
+}
+#table-bloc-vdl-liste span.date-display-single{
+    text-align: right;
+    float: right;
+    font-style: italic;
+}
+/*Bloc filtre exposé de view pour l'année - archives*/
+#block-views--exp-liste_actu_lycee-block_1{
+    width: 160px;
+    margin: 0 auto;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+   
+}
+#block-views--exp-liste_actu_lycee-block_1 h3{
+   font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #01ABCF;
+   font-size: 1.5em;
+   margin: 0;
+}
+#block-views--exp-liste_actu_lycee-block_1 select{
+    margin: 0 auto;
 }
