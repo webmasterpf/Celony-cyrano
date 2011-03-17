@@ -9,6 +9,7 @@
     <meta name="msvalidate.01" content="ADFD4C87A757AE4461AE5F7793002836" />
     <?php print $head; ?>
     <?php print $styles; ?>
+    
     <?php print $scripts; ?>
     <script src="<?php //print $base_path . path_to_theme() ?>/js/typos.js" type="text/javascript" charset="utf-8"></script>
        <!--[if IE]>

@@ -1,0 +1,20 @@
+/* 
+    Document   : impoirt-css
+    Created on : 17 mars 2011, 11:55:53
+    
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   Pour importer des css utiles sans passer par le fichier info
+   Concerne menus, slideshow..
+*/
+
+@import "<?php print $base_path . path_to_theme() ?>/css/nivo-slider.css";
+@import "css/custom-nivo-slider.css";
+
+@import "css/superfish/superfish-navbar.css";
+@import "css/superfish/blue.css";
+@import "css/superfish/celony-superfish.css";
+

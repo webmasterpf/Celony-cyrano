@@ -145,13 +145,13 @@ color: #000000;
 }
 
  /*------------------------------------------------------*
-  *------------ CSS H  ----*
+  *------------ CSS H GENERIK ----*
   *------------------------------------------------------*/
   
 h1 {
 	margin: 0;
 	padding: 0;
-	color:#000;
+	color:#91127D;
 	font-size: 20px;
 }
   
@@ -693,16 +693,31 @@ display: none;
    font-size: 1.5em;
    margin: 5px 0;
 }
-#liste-vdl-similaires ul{}
-#liste-vdl-similaires li{}
-#liste-vdl-similaires li a{
+#liste-vdl-similaires ul{
+    margin: 0;
+    padding: 5px 0;
+}
+#liste-vdl-similaires li{
+    margin: 3px 0;
+
+}
+.element-vdl-similaire a{
     background: #EFEFEF;
     display: block;
     color: #4F4F4F;
 }
-#liste-vdl-similaires li a:hover{
+.element-vdl-similaire a:hover{
     background: #AEC721;
     color: white;
+}
+.element-vdl-similaire{
+    background: #EFEFEF;
+    display: block;
+    width: 190px;
+    margin: 0 auto;
+}
+.element-vdl-similaire span{
+    display: block;
 }
 /*######-------- COLONNE G1 --------######*/
 #pageSortieActions_col_G1 h2{}
