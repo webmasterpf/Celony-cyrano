@@ -659,6 +659,7 @@ h1.titre_vdl_sortie{
 }
 #table_infos_plus td{
     padding: 3px 0 6px 10px;
+    text-align: center;
 }
 #table_infos_plus hr{
     border-bottom: 1px solid #01ABCF;
@@ -912,4 +913,12 @@ h1.titre_vdl{
 }
 #block-views--exp-liste_actu_lycee-block_1 select{
     margin: 0 auto;
+}
+/*----------------------------------------
+*****~~~~~~ PAGE VDL  ~~~~~~~~~~~~*********
+-----PAGE ACTUALITES et ITEMS ACTU RP Annonce-----
+------------------------------------------*/
+/*Vue liste des RP pour item actu*/
+.liste-revue-presse_defaut{
+    background: transparent url(../images/bg_actu_revuepresse.jpg) no-repeat ;
 }

@@ -39,9 +39,9 @@ function cyrano_ce_preprocess_node(&$vars, $hook) {
  //
 //Partie template node.tpl
 $node = $vars['node'];
-$lesTypes=array('page_fiche_formation', 'page_pole');
+$lesTypes=array('page_fiche_formation', 'page_pole','contenu_actualites');
 //ajouter les vids possibles pour chaque quelquesoit le type
-$lesVid=array('1','3');
+$lesVid=array('1','5');// vid 1 pour pole formation, vid 5 pour type actualite
 // on regarde si le type est dans le tableau
 if ( in_array($node->type,$lesTypes) ) {
        if ( ! empty($node->taxonomy)  ) {
@@ -53,7 +53,7 @@ if ( in_array($node->type,$lesTypes) ) {
               $tplfile = 'node-'.$node->type.'-'. $term->vid.'-'.$term->tid ;
               $vars['template_files'][] = $tplfile ;
           //drupal_set_message('Term name : '.$term->name,'status');
-           drupal_set_message('Template file : '.$tplfile,'status');
+           drupal_set_message('Template file : '.$tplfile.'.tpl.php','status');
           }
     
           
@@ -84,9 +84,10 @@ function phptemplate_preprocess_page(&$vars) {
 function debug_print($var) {
   drupal_set_message('<pre>'. print_r($var, TRUE) .'</pre>');
 }
-//Webform "You have already submitted this form." message off
-function cyrano_ce_webform_view_messages($node, $teaser, $page, $submission_count, $limit_exceeded, $allowed_roles) {
-  theme_webform_view_messages($node, $teaser, $page, 0, $limit_exceeded, $allowed_roles);
+
+//Webform "You have already submitted this form." message off - http://drupal.org/node/1096226
+function cyrano_ce_webform_view_messages($node, $teaser, $page, $submission_count, $limit_exceeded, $allowed_roles, $closed, $cached) {
+  return theme_webform_view_messages($node, $teaser, $page, 0, $limit_exceeded, $allowed_roles, $closed, $cached);
 }
 ?>
 <?php

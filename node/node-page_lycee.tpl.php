@@ -40,7 +40,7 @@
         <br clear="all"/>
            <?php if ($node->field_vue_actus_lycee[0]['view']): ?>
         <div id="bloc-actu-lycee">
-                   <?php  print $node->field_vue_actus_lycee[0]['view'] /*Vue actus du lycée*/ ?>
+           <?php  print $node->field_vue_actus_lycee[0]['view'] /*Vue actus du lycée*/ ?>
         </div>
            <?php endif;?>
     </div>

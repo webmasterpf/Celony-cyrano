@@ -26,7 +26,7 @@
   // Flash object attributes id and name
   var attributes = { id:'CU3ER', name:'CU3ER' };
   // dynamic embed of Flash, set the location of expressInstall if needed
-	swfobject.embedSWF('<?php print $base_path  ?>sites/all/3rdparty/cu3er/CU3ER.swf', "CU3ER", 550, 480, "10.0.0", "js/expressinstall.swf", vars, params, attributes );
+	swfobject.embedSWF('<?php print $base_path  ?>sites/all/3rdparty/cu3er/CU3ER.swf', "CU3ER", 990, 660, "10.0.0", "js/expressinstall.swf", vars, params, attributes );
   // initialize CU3ER class containing Javascript controls and events for CU3ER
   var CU3ER_object = new CU3ER("CU3ER");
 </script>
