@@ -23,6 +23,12 @@
         -webkit-box-shadow: 1px 2px 2px #aaa;
         box-shadow: 1px 2px 2px #555;
     }
+.ombrage_bloc {
+
+    -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+    }
 /**********STYLE POUR LES BLOCS*******************/
 
 /**----HEADER---***/
@@ -919,6 +925,48 @@ h1.titre_vdl{
 -----PAGE ACTUALITES et ITEMS ACTU RP Annonce-----
 ------------------------------------------*/
 /*Vue liste des RP pour item actu*/
+#bloc_actus_rp h3{
+   font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #911381;
+   font-size: 1.5em;
+   margin: 5px 0;
+}
 .liste-revue-presse_defaut{
     background: transparent url(../images/bg_actu_revuepresse.jpg) no-repeat ;
+}
+.liste-revue-presse_defaut ul{
+    list-style: none;
+    width: 190px;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.liste-revue-presse_defaut li{
+    
+    text-align: center;
+    padding: 5px;
+}
+.liste-revue-presse_defaut li a{
+    padding: 2px;
+    text-decoration: none;
+    color: #656571;
+    font-weight: bold;
+}
+.liste-revue-presse_defaut li a:hover{
+    background: #D0D1D2;
+}
+.liste-revue-presse_defaut hr{
+    border-top: 1px solid #95107D;
+    width: 75%;
+    margin: 0 auto;
+
+}
+.liste-revue-presse_defaut{}
+.liste-revue-presse_defaut{}
+/**Video RP pour inclusion via node.tpl*/
+.video_rp{
+    width: 425px;
+    margin: 0 auto;
+    border: 2px solid #E5E6E8;
+    padding: 3px;
 }

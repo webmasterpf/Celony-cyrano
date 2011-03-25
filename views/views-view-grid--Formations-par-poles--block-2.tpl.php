@@ -16,5 +16,5 @@
 ?>
 <?php
 global $theme_path;
-include ($theme_path.'/includes/inc_table_formation_poles.php');
+include ($theme_path.'/includes/inc_poles_table_formation.php');
 ?>

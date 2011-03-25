@@ -17,20 +17,10 @@ include ($theme_path.'/includes/inc_field_diapo_fiche_flash.php');
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
 <div id="fiche_col_G2">
-    <h2>infos pratiques</h2>
-    <table id="table_fiche_formation">
-        <tbody>
-            <tr>
-                <td><?php  print $node->field_lien_interne[0]['view'] /*Lien interne frais scolarité*/ ?></td>
-            </tr>
-            <tr>
-                <td><?php  print $node->field_lien_externe[0]['view'] /*Lien externe onisep*/?></td>
-            </tr>
-            <tr>
-                <td><?php  print $node->field_fiche_formation[0]['view'] /*Lien vers fiche pdf*/ ?></td>
-            </tr>
-        </tbody>
-    </table>
+    <?php
+global $theme_path;
+include ($theme_path.'/includes/inc_formation_table_fiche.php');
+?>
     
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->

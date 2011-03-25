@@ -21,7 +21,7 @@ include ($theme_path.'/includes/inc_field_diapo_slideshow_multimage.php');
 <div id="fiche_col_G2">
     <?php
 global $theme_path;
-include ($theme_path.'/includes/inc_table_fiche_formation.php');
+include ($theme_path.'/includes/inc_formation_table_fiche.php');
 ?>
 
 </div>
