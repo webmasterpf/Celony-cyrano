@@ -1,5 +1,5 @@
 <?php include "inc_header.php"; ?>
- <!-- ______________________ LAYOUT PAGE BASIQUE _______________________ -->
+ <!-- ______________________ LAYOUT PAGE BASIQUE CELONY PAGE.TPL_______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
       <div id="contentPage">
@@ -13,20 +13,9 @@
             </div> <!-- /#content-top -->
 	  
       
-       <!-- ______________________ COLONNE GAUCHE _______________________ -->
+       
 		
-			  
-         <div id="left-content">
-              <?php if ($title): ?>
-                <h1 class="title"><?php print $title; ?></h1>
-              <?php endif; ?>
-			  <?php if ($left): ?>
-            <?php print $left; ?>
-			<?php endif; ?> 
-          </div>
-             <!-- /sidebar-left -->
-		
-		<!--fin du contenu gauche -->
+		<!--CONTENU CENTRAL-->
         
         <div id="content-inner" class="inner column center">
 		             
@@ -50,12 +39,11 @@
 
             </div> <!-- /#content-header -->
           <?php endif; ?>
-		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
-          <div id="middle-content">
-           <!-- <pre> <?php print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-            <?php print $content; ?>
+		 
+          
+                       <?php print $content; ?>
               <?php print $feed_icons; ?>
-          </div> <!-- /#content-area -->
+        
 
         
 
@@ -72,16 +60,7 @@
         <?php endif; ?>
 
        
-		  <!-- ______________________ COLONNE DROITE _______________________ -->
-        <?php if ($right): ?>
-         <!--d�but du contenu droit -->
-		<div id="right-content">
-			
-				
-            <?php print $right; ?>
-        </div>
-        <?php endif; ?> <!-- /sidebar-right -->
-
+		 
    
     	 <br clear="all"/>
          <!-- ______________________ CONTENU BAS _______________________ -->

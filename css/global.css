@@ -29,6 +29,19 @@
     -webkit-box-shadow: 2px 2px 5px #aaa;
     box-shadow: 2px 2px 5px #555;
     }
+    .ombrage_bas_table_actu{
+         -moz-box-shadow: 2px 2px 5px #aaa;
+    -webkit-box-shadow: 2px 2px 5px #aaa;
+    box-shadow: 2px 2px 5px #555;
+}
+/*-------------------------------------------------
+*********  COULEURS *****************
+gris anthracite #606070
+vert #ADC91F
+violet #911381
+orange #F29400
+bleu turquoise #01ABCF
+*/
 /**********STYLE POUR LES BLOCS*******************/
 
 /**----HEADER---***/
@@ -110,7 +123,7 @@ padding:10px 0;
 	color:#000;
 
 }
-#left-content a{
+/*#left-content a{
 	color:#666666;
 	text-decoration:none;
 }
@@ -122,13 +135,13 @@ padding:10px 0;
 	margin:0;
 	padding: 0;
 	list-style:none;
-}
+}*/
 /**----COLONNE DROITE---***/
 #right-content p{
 	color:#000;
 
 }
-#right-content a{
+/*#right-content a{
 	color:#666666;
 	text-decoration:none;
 }
@@ -140,7 +153,7 @@ padding:10px 0;
 	margin:0;
 	padding: 0;
 	list-style:none;
-}
+}*/
 /**----FOOTER---***/
 #footer a{
 color: #9898a6;
@@ -924,6 +937,88 @@ h1.titre_vdl{
 *****~~~~~~ PAGE VDL  ~~~~~~~~~~~~*********
 -----PAGE ACTUALITES et ITEMS ACTU RP Annonce-----
 ------------------------------------------*/
+/*Bloc actu association RSS sur page Actu globale*/
+#block-aggregator-feed-1{
+    width: 160px;
+    margin: 0 auto;
+    
+}
+#block-aggregator-feed-1 h3{
+    font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #ADC91F;
+   font-size: 1.5em;
+   margin: 0;
+}
+#block-aggregator-feed-1 ul{
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    
+
+}
+#block-aggregator-feed-1 ul li{
+    margin: 0;
+    
+}
+#block-aggregator-feed-1 li a{
+    color: #606070;
+    text-decoration: none;
+    padding: 2px;
+    display: block;
+    
+    
+}
+#block-aggregator-feed-1 li a:hover{
+    color: white;
+    background: #ADC91F;
+}
+
+/*Bloc vue actu générale - page actu globale*/
+h3.titre-bloc-actus-generales{
+    font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #F29400;
+   font-size: 1.8em;
+   margin: 0;
+}
+#vue-bloc-actus-generales table{
+    padding: 5px;
+}
+#vue-bloc-actus-generales tbody{}
+#vue-bloc-actus-generales tr{
+    margin: 5px 0;
+}
+#vue-bloc-actus-generales td{
+    margin: 5px 0;
+    display: block;
+}
+#vue-bloc-actus-generales hr{
+    border-top: 1px solid #911381;
+    width: 75%;
+    margin: 0 auto;
+}
+#vue-bloc-actus-generales td a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 10px;
+    color: #ADC91F;
+  
+}
+#vue-bloc-actus-generales td a:hover{
+    color: #911381;
+}
+#vue-bloc-actus-generales .views-field-name, #vue-bloc-actus-generales .views-field-created{
+    font-style: italic;
+    font-size: 10px;
+    padding: 0 5px;
+   
+}
+
+
 /*Vue liste des RP pour item actu*/
 #bloc_actus_rp h3{
    font-family: arista,Trebuchet MS, sans-serif;

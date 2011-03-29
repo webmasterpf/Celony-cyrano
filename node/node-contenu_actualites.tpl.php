@@ -12,6 +12,8 @@
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
+
+        
        
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
@@ -23,6 +25,10 @@
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value']
       ?>
+      <?php
+              global $theme_path;
+              include ($theme_path.'/includes/inc_region_col_G2.php');
+              ?>
     
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->

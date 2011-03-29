@@ -80,15 +80,17 @@ height: 100%;
 	background-color:transparent;
 	width:200px;
 	left:0px;
+        display: table-column;
 }
 
 /*/// partie de droite ///*/
 #right-content{
-	float:right;
+	float:left;
 	position:relative;
 	background-color:transparent;
 	width:200px;
 	right:0px;
+        display: table-column;
 }
 /*inner content*/
 #content-inner{
@@ -96,8 +98,7 @@ height: 100%;
     margin:0 auto;
     float:left;
     background-color:transparent;
-    border-right: 1px solid #ADC821;
-    border-left: 1px solid #91127D;
+  
 }
 /*///    partie du centre   ///*/
 #middle-content{
@@ -106,6 +107,9 @@ height: 100%;
 	background-color:transparent;
 	width:auto;
 	padding:5px;
+        display: table-column;  
+       
+
 }
 
 /*PIED DE CONTENU*/
