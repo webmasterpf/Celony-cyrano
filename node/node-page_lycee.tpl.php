@@ -33,10 +33,11 @@
     <div class="content">
 
        
-   
-        <div id="bloc_docs_utiles_plycee">
-               <?php  print views_embed_view('Fichiers_doc_joints','page_1',$view_args);/*Liste des fichiers joints*/ ?>
-        </div>
+   <?php //inclusion de la vue Docs joints
+global $theme_path;
+include ($theme_path.'/includes/inc_lycee_docs_joints.php');
+?>
+        
         <br clear="all"/>
            <?php if ($node->field_vue_actus_lycee[0]['view']): ?>
         <div id="bloc-actu-lycee">

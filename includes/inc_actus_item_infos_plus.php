@@ -5,9 +5,10 @@
  */
 
 ?>
-<?php  if ($node->field_fichier_joint_rp[0]['view']!== NULL OR $node->field_fichier_joint_rp[1]['view']!==NULL
-        OR $node->field_fichier_joint_rp[2]['view']!==NULL OR $node->field_fichier_audio_rp[0]['view']!==NULL
-
+<?php  if ($node->field_fichier_joint_rp[0]['view']
+OR $node->field_fichier_joint_rp[1]['view']
+OR $node->field_fichier_joint_rp[2]['view']
+OR $node->field_fichier_audio_rp[0]['view']
 ): ?>
 <table id="table_infos_plus" border="0">
     <tbody>

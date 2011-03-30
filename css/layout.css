@@ -354,3 +354,52 @@ LAYOUT POUR NODE.TPL PAGE VDL LISTE ARCHIVE
     height: 100%;
     display: table-cell;
 }
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL WEBFORM
+---------------------------------------------------*/
+
+/*inner content*/
+#content-inner-webform{
+    width:auto;
+    margin:0 auto;
+    float:left;
+
+}
+/*///    partie du centre   ///*/
+#middle-content-webform{
+	float:left;
+	position:relative;
+	background-color:transparent;
+	width:auto;
+	padding:5px;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL WEBFORM
+---------------------------------------------------*/
+
+#webform_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+#webform_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+     padding: 5px;
+}
+#webform_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}
