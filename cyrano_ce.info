@@ -17,6 +17,7 @@ stylesheets[all][] = css/superfish/celony-superfish.css
 stylesheets[all][] = css/superfish/superfish-navbar.css
 stylesheets[all][] = css/superfish/blue.css
 stylesheets[all][] = css/style-backoffice.css
+stylesheets[all][] = css/maintenance.css
 
 
 

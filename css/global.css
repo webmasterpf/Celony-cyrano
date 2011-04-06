@@ -1014,14 +1014,21 @@ h3.titre-bloc-actus-generales{
 #vue-bloc-actus-generales td a:hover{
     color: #911381;
 }
-#vue-bloc-actus-generales .views-field-name, #vue-bloc-actus-generales .views-field-created{
+#vue-bloc-actus-generales span.views-field-name,#vue-bloc-actus-generales span.views-field-created,#vue-bloc-actus-generales span.views-field-field-date-evenement-value{
     font-style: italic;
     font-size: 10px;
     padding: 0 5px;
+    text-align: right;
    
 }
-
-
+#views-exposed-form-Actualites-liste-globale-block-1{
+    width: 65%;
+    margin: 0 auto;
+}
+#views-exposed-form-Actualites-liste-globale-block-1 .date-views-filter-wrapper{
+    width: auto;
+    min-width: 20%;
+}
 /*Vue liste des RP pour item actu*/
 #bloc_actus_rp h3{
    font-family: arista,Trebuchet MS, sans-serif;
