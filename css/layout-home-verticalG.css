@@ -179,48 +179,12 @@ float: left;
 /*-----------------------------------------
 LISTE ACTU
 -------------------------------------------*/
-#block-views-liste_activites_accueil-block_1 ul {
-list-style: none;
-}
-
-
-
-.view-liste-activites-accueil ul li{
-    list-style: none inside;
-    background: url("../images/puce-home.gif") no-repeat left 3px;
-    padding: 0;
-    margin: 0;
-}
-
-.view-liste-activites-accueil .titre a{
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
-p.view-liste-activites-accueil a{
-    text-decoration: none;
-}
-
-/*------------------------------------------
-BLOC POUR ACTU FOYER
--------------------------------------------*/
-#block-views-liste_actu_foyer-block_1{
-    float: left;
-    width: 300px;
-    margin: 0 2px 0 0;
-    padding: 0;
-}
-#block-views-liste_actu_foyer-block_1 a{
-    text-decoration: none;
-    color: #93117E;
-}
-#block-views-liste_actu_foyer-block_1 a:hover{
-    text-decoration: underline;
-    color: #E4007D;
-}
-#block-views-liste_actu_foyer-block_1 li, #block-views-liste_actu_foyer-block_1 h3{
-    color: #01AAD3;
+#HPDroite2 h3{
+    font-family: arista,Trebuchet MS, sans-serif;
+    text-align: center;
+    color: #ADC91F;
+    font-size: 18px;
+    margin: 0 0 10px;
 }
 
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/

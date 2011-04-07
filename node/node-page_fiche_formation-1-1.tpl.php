@@ -9,7 +9,7 @@
 
     <?php endif; ?>
       <br clear="all"/>
-    <!-- Diapo deco fiche formation -->
+   
 
 <?php
 global $theme_path;
