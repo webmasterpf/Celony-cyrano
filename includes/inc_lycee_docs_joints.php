@@ -1,7 +1,7 @@
 <?php
 /* 
  * Inclus la vue Documents joints pour page lycee tpl
- * conditionné à la prséence de champs CCK non vide
+ * conditionné à la présence de champs CCK non vide
  */
 
 ?>

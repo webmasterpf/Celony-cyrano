@@ -56,6 +56,17 @@ jaune #FAEB0C
 	padding: 3px;
 
 }
+/*Lien en js selon hauteur de page*/
+a#retour_haut{
+    display: none;
+    color: #AEC721;
+    text-decoration: none;
+    text-align: right;
+    float:right;
+}
+a:hover#retour_haut{
+    text-decoration: underline;
+}
 
 .item-list ul li {
 list-style-image:none;

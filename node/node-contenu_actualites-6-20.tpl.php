@@ -33,7 +33,8 @@
                   global $theme_path;
                   include ($theme_path.'/includes/inc_actus_video.php');
                   ?>
-    
+     <!-- retour haut selon resolution de l'ecran -->
+          <a href="#general" id="retour_haut">Haut de page</a>
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    

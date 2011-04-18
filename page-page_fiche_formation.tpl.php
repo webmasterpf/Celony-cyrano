@@ -39,6 +39,8 @@
           
             <?php print $content; ?>
               <?php print $feed_icons; ?>
+              <!-- retour haut selon resolution de l'ecran -->
+          <a href="#general" id="retour_haut">Haut de page</a>
           </div> <!-- /#content-area -->
 
         

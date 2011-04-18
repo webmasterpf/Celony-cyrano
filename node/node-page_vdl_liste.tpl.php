@@ -27,7 +27,8 @@
       print $node->field_vue_liste_vdl[0]['view'];/*Les vdl archives et en cours*/
      /*Pour les termes Sortie : 15 - Europe : 13 - Partenaires : 14 */
       ?>
-    
+     <!-- retour haut selon resolution de l'ecran -->
+          <a href="#general" id="retour_haut">Haut de page</a>
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    

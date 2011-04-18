@@ -26,6 +26,7 @@
     <?php if ($links): ?> 
       <div class="links"> <?php print $links; ?></div>
     <?php endif; ?>
-
+ <!-- retour haut selon resolution de l'ecran -->
+          <a href="#general" id="retour_haut">Haut de page</a>
   </div> <!-- /node-inner -->
 </div> <!-- /node-->

@@ -1,5 +1,5 @@
-name = Celony cyrano
-description = Gabarit CSS /xHTML pour Drupal 6 - theme pour le site Celony by Aiphes
+name = Celony inspired by Cyrano
+description = Gabarit CSS /xHTML pour Drupal 6 - Design and Integration by Webmaster PF
 version = VERSION
 core = 6.x
 engine = phptemplate

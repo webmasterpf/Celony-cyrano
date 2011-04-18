@@ -37,15 +37,15 @@
           </a>
         <?php endif; ?>
 
-        <div id="name-and-slogan">
-          <?php if (!empty($site_name)): ?>
-            <h1 id="site-name">
+        <div id="name-and-slogan-maintenance">
+          <?php /*if (!empty($site_name)): ?>
+            <h1 id="site-name-maintenance">
               <a href="<?php print $base_path ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
             </h1>
-          <?php endif; ?>
+          <?php endif; */?>
 
           <?php if (!empty($site_slogan)): ?>
-            <div id="site-slogan"><?php print $site_slogan; ?></div>
+            <div id="site-slogan-maintenance"><?php print $site_slogan; ?></div>
           <?php endif; ?>
         </div> <!-- /name-and-slogan -->
       </div> <!-- /logo-title -->
@@ -58,7 +58,7 @@
 
     </div> <!-- /header -->
 
-    <div id="contentPage" class="clear-block">
+    <div id="contentPage-maintenance" class="clear-block">
 
      
         <div id="left-content" class="column sidebar">
@@ -71,7 +71,7 @@
         <div id="content">
           <?php if (!empty($title)): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
           <?php if (!empty($messages)): print $messages; endif; ?>
-          <div id="middle-content" class="clear-block">
+          <div id="middle-content-maintenance" class="clear-block">
             <?php print $content; ?>
           </div> <!-- /content-content -->
         </div> <!-- /content -->
@@ -87,7 +87,7 @@
     </div> <!-- /container -->
 
     <div id="footer-wrapper">
-      <div id="footer">
+      <div id="footer-maintenance">
         <?php print $footer_message; ?>
         <?php if (!empty($footer)): print $footer; endif; ?>
       </div> <!-- /footer -->
