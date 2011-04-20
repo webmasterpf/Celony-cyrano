@@ -160,7 +160,7 @@ float: left;
 }
 
 #HPDroite2{
-    background: url("../images/titre_actus_hp.gif") no-repeat top left;
+    /*background: url("../images/titre_actus_hp.gif") no-repeat top left;*/
     margin: 0;
     padding: 35px 2px 0;
 }
@@ -177,7 +177,7 @@ float: left;
     margin: 0 auto;
 }
 /*-----------------------------------------
-LISTE ACTU
+************ LISTE ACTU ********************
 -------------------------------------------*/
 #HPDroite2 h3{
     font-family: arista,Trebuchet MS, sans-serif;
