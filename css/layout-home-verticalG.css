@@ -228,3 +228,23 @@ text-decoration: none;
     position: relative;
     z-index:1;
 }
+/* ANNONCE DEFILANTE*/
+/*--- ZONE ANNONCE ------*/
+#annonce{
+    color:#E2017B;
+    font-size:16px;
+    font-weight:bold;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    width: 960px;
+    display: block;
+}
+#annonce a{
+    color: #93117E;
+    text-decoration: none;
+    font-weight: bold;
+}
+#annonce a:hover{
+    text-decoration: underline;
+}
