@@ -24,9 +24,15 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
     <?php endif; ?>
     <?php
      /*insertion du contenu du corps de la page*/
-      print $node->content['body']['#value']
+      print $node->content['body']['#value'];
+       print $node->gallitems[0]['view'];
       ?>
-      <?php print $item->img; ?>
+
+      <?php if ($node->field_ga_vue_vdl[0]['view']): /*Affichage conditionnel du bloc Autres sorties*/?>
+        <div id="bloc-autres-vdl">
+                <?php  print $node->field_ga_vue_vdl[0]['view']; /*GA views*/ ?>
+        </div>
+        <?php endif;?>
      <!-- retour haut selon resolution de l'ecran -->
           <a href="#general" id="retour_haut">Haut de page</a>
 </div>

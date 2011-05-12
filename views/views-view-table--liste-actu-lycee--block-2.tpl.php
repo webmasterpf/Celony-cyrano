@@ -1,8 +1,7 @@
 <?php
 /* 
- * Template de vue pour le tableau qui liste les évènements selon le tid
- * argument fourni par viewreference
- * Utilisé sur le spages archives des VDL
+ * 
+ * Utilisé pour affichage sur page d'accueil
  */
 
 ?>
@@ -23,7 +22,7 @@
  * @ingroup views_templates
  */
 ?>
-<table id="table-bloc-vdl-liste" class="<?php //print $class; ?>">
+<table id="table-bloc-vdl-liste-hp" class="<?php //print $class; ?>">
   <?php if (!empty($title)) : ?>
     <caption><?php print $title; ?></caption>
   <?php endif; ?>
