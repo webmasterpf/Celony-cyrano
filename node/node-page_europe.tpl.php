@@ -25,7 +25,9 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
     <?php
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value'];
-       print $node->gallitems[0]['view'];
+      global $theme_path;
+include ($theme_path.'/includes/inc_GA_view_vdl.php');
+      
       ?>
 
       <?php if ($node->field_ga_vue_vdl[0]['view']): /*Affichage conditionnel du bloc Autres sorties*/?>
