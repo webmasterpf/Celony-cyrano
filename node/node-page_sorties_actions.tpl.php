@@ -27,7 +27,7 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
       print $node->content['body']['#value'];
       global $theme_path;
 include ($theme_path.'/includes/inc_GA_view_vdl.php');
-print $node->gallitems[0]['view'];
+
       ?>
      <!-- retour haut selon resolution de l'ecran -->
           <a href="#general" id="retour_haut">Haut de page</a>
