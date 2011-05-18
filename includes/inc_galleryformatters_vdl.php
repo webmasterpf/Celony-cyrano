@@ -1,19 +1,27 @@
 <?php
 //Includes pour afficher Galleryformatters dans node.tpl
 /*
- * Normalement les champs CCK sont testés avant d'être affichés.
- *
- * 
- *
+ * Inclusion de la vue pour bloc vdl global
+ * dans le node pour utiliser le node.tpl
  */
-if($node->field_gallery_formatter_vdl[0]['view']
-        OR $node->field_gallery_formatter_vdl[1]['view']
-        OR $node->field_gallery_formatter_vdl[2]['view']
-        OR $node->field_gallery_formatter_vdl[3]['view']):?>
-<!-- Diapo deco fiche formation -->
-    <div id="diapo_fiche">
 
-               <?php  print $node->field_gallery_formatter_vdl[0]['view']; ?>
+?>
+<?php
+$viewname = 'Diapo_slider_vdl';
+$view = views_get_view ($viewname);
+$view->set_display('block_2');
 
-    </div>
-<?php endif; ?>
+
+//Exécution de le vue
+$view->pre_execute();
+$view->execute();
+
+if ($view->result) {
+  // S'il y a un resultat on récupère le titre (ajoute tag h3, et le contenu)
+  $output = '<div id="bloc_vdl_sortie"><h3>'.$view->get_title().'</h3>' . $view->render().'</div>';
+}
+
+//Affiche la vue
+print $output;
+
+?>
