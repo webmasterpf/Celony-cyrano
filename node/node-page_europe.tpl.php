@@ -30,9 +30,9 @@ include ($theme_path.'/includes/inc_GA_view_vdl.php');
       
       ?>
 <?php
- global $theme_path;
+/* global $theme_path;
 include ($theme_path.'/includes/inc_image_slider_view_vdl.php');
-
+*/
 ?>
 
 <?php
