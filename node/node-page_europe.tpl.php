@@ -30,15 +30,16 @@ include ($theme_path.'/includes/inc_GA_view_vdl.php');
       
       ?>
 <?php
-/* global $theme_path;
-include ($theme_path.'/includes/inc_image_slider_view_vdl.php');
-*/
+ global $theme_path;
+include ($theme_path.'/includes/inc_choix_galerie_vdl.php');
+
 ?>
 
 <?php
+/*
  global $theme_path;
 include ($theme_path.'/includes/inc_galleryformatters_vdl.php');
-
+*/
 ?>
       <?php if ($node->field_ga_vue_vdl[0]['view']): /*Affichage conditionnel du bloc Autres sorties*/?>
         <div id="bloc-autres-vdl">

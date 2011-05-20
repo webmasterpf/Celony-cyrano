@@ -5,7 +5,7 @@
  */
 
 ?>
-<?php
+<?php if ($terms):
 $viewname = 'GA_vdl';
 $view = views_get_view ($viewname);
 $view->set_display('block_1');
@@ -23,7 +23,7 @@ if ($view->result) {
 //Affiche la vue
 print $output;
 
-?>
+endif; ?>
 <?php
 $viewname = 'GA_vdl';
 $view = views_get_view ($viewname);
