@@ -822,7 +822,9 @@ display: none;
     padding: 5px;
     color: 
 }
-#pageSortieActions_col_G2 ul{}
+#pageSortieActions_col_G2 ul{
+    margin: 5px;
+}
 #pageSortieActions_col_G2 img{
 
 }

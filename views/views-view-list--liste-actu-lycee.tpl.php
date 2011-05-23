@@ -9,6 +9,7 @@
  * @ingroup views_templates
  *
  * Utilisé pour les pages lycée : Célony actus
+ * Utilisé aussi pour page VDL liste pour actualité du lycée
  */
 ?>
 <div class="liste-actu-lycee">
