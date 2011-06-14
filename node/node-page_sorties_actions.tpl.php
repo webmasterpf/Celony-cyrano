@@ -29,6 +29,13 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
 include ($theme_path.'/includes/inc_GA_view_vdl.php');
 
       ?>
+
+       <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
+        <div id="bloc-galerie-vdl">
+           <?php  print $node->field_choix_galerie_vdl[0]['view'] /*Vue galerie vdl*/ ?>
+        </div>
+           <?php endif;?>
+
      <!-- retour haut selon resolution de l'ecran -->
           <a href="#general" id="retour_haut">Haut de page</a>
 </div>

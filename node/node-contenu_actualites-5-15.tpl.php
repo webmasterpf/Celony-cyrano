@@ -29,6 +29,11 @@
       print $node->content['body']['#value']
       ?>
       <br />
+          <?php
+                  global $theme_path;
+                  include ($theme_path.'/includes/inc_choix_galerie_vdl_actu.php');
+                  ?>
+      <br/>
  <?php
                   global $theme_path;
                   include ($theme_path.'/includes/inc_actus_video.php');
