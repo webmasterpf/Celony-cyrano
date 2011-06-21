@@ -1,4 +1,4 @@
-<!--______________NODE TPL POUR TdC PAGE CONTENU ACTUALITE CUSTOM ACTUALITE ________________ -->
+<!--______________NODE TPL POUR TdC PAGE CONTENU ACTUALITE CUSTOM ANNONCE ________________ -->
 <?php //tpl pour node tagger comme Annonce ponctuelle (dev=tid:16 vid:5) (prod= vid:6 tid:19)?>
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
@@ -39,7 +39,7 @@
                   include ($theme_path.'/includes/inc_actus_video.php');
                   ?>
      <!-- retour haut selon resolution de l'ecran -->
-          <a href="#general" id="retour_haut">Haut de page</a>
+          <!-- <a href="#general" id="retour_haut">Haut de page</a>-->
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    

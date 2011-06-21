@@ -753,6 +753,20 @@ h1.titre_vdl_sortie{
 #table_infos_plus .filefield-icon {
 display: none;
 }
+/*---- Galerie images au choix -------*/
+#bloc-galerie-vdl{
+    margin: 0;
+    padding: 0;
+    width: 540px;
+}
+#bloc-galerie-vdl h3{
+    text-align: center;
+    font-family: arista,Trebuchet MS, sans-serif;
+    font-size: 2.0em;
+    margin: 5px;
+    color: #94127F;
+
+}
 /*------- LISTE VDL SIMILAIRE ------------*/
 #bloc-autres-vdl{}
 #liste-vdl-similaires{
@@ -820,10 +834,10 @@ display: none;
 #pageSortieActions_col_G2 h4{}
 #pageSortieActions_col_G2 p{
     padding: 5px;
-    color: 
+    color: #5D5E70;
 }
 #pageSortieActions_col_G2 ul{
-    margin: 5px;
+    margin: 0px;
 }
 #pageSortieActions_col_G2 img{
 

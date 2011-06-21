@@ -25,27 +25,14 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
     <?php
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value'];
-      global $theme_path;
-include ($theme_path.'/includes/inc_GA_view_vdl.php');
-      
       ?>
-<?php
- global $theme_path;
-include ($theme_path.'/includes/inc_choix_galerie_vdl.php');
-
-?>
-
-<?php
-/*
- global $theme_path;
-include ($theme_path.'/includes/inc_galleryformatters_vdl.php');
-*/
-?>
-      <?php if ($node->field_ga_vue_vdl[0]['view']): /*Affichage conditionnel du bloc Autres sorties*/?>
-        <div id="bloc-autres-vdl">
-                <?php  print $node->field_ga_vue_vdl[0]['view']; /*GA views*/ ?>
+     <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
+        <div id="bloc-galerie-vdl">
+           <?php  print $node->field_choix_galerie_vdl[0]['view'] /*Vue actus du lycée*/ ?>
         </div>
-        <?php endif;?>
+           <?php endif;?>
+
+    
      <!-- retour haut selon resolution de l'ecran -->
           <a href="#general" id="retour_haut">Haut de page</a>
 </div>

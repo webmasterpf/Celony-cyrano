@@ -25,9 +25,6 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
     <?php
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value'];
-      global $theme_path;
-include ($theme_path.'/includes/inc_GA_view_vdl.php');
-
       ?>
 
        <?php if ($node->field_choix_galerie_vdl[0]['view']): ?>
@@ -37,7 +34,7 @@ include ($theme_path.'/includes/inc_GA_view_vdl.php');
            <?php endif;?>
 
      <!-- retour haut selon resolution de l'ecran -->
-          <a href="#general" id="retour_haut">Haut de page</a>
+          <!--<a href="#general" id="retour_haut">Haut de page</a>-->
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
