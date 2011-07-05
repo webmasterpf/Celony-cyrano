@@ -32,7 +32,7 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
         </div>
            <?php endif;?>
      <!-- retour haut selon resolution de l'ecran -->
-          <a href="#general" id="retour_haut">Haut de page</a>
+          <!--<a href="#general" id="retour_haut">Haut de page</a>-->
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
@@ -46,8 +46,10 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
 <div id="bloc-autres-vdl">
 
     <?php
-global $theme_path;
+    /*
+    global $theme_path;
 include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
+*/
 ?>
    </div>
          <?php if ($node->field_vue_autres_vdl[0]['view']): /*Affichage conditionnel du bloc Autres sorties*/?>
@@ -58,7 +60,7 @@ include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
     </div>
 
     <?php if ($terms): ?>
-      <div class="taxonomy"><?php print $terms; ?></div>
+      <div class="taxonomy"><?php //print $terms; ?></div>
     <?php endif;?>
 
     <?php if ($links): ?>

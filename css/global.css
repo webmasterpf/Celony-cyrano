@@ -186,6 +186,7 @@ h1 {
 	padding: 0;
 	color:#91127D;
 	font-size: 20px;
+        line-height: 1.2em;
 }
   
 h2 {
@@ -766,6 +767,9 @@ display: none;
     margin: 5px;
     color: #94127F;
 
+}
+#bloc-galerie-vdl .overlay-inner p{
+    color: white;
 }
 /*------- LISTE VDL SIMILAIRE ------------*/
 #bloc-autres-vdl{}

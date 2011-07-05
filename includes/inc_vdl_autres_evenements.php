@@ -7,6 +7,7 @@
 
 ?>
 <div id="bloc_vdl_autres_evenements">
+    
         <?php
 
                 $viewname = 'liste_autres_vdl';
@@ -28,7 +29,7 @@
                         drupal_set_message('VID vocabulaire: '.$term->vid.' et le terme id : '.$term->tid,'status');
                         drupal_set_message('Vue utilisé: '.$viewname,'status');
                         $output = '<div id="ac"><h3>'.$view->get_title().'</h3>' .$view->preview($viewdisplay, $args).'</div>';
-                        drupal_set_message('Argument pour la vue : '.$args.'/'.$node->nid,'status');
+                        drupal_set_message('Argument pour la vue : tid '.$args.'/ nid '.$node->nid,'status');
                         drupal_set_message('Vue sortie des valeurs avant affichage : '.$output,'status');
                         if (!empty($view->result)) {
                             print $output;

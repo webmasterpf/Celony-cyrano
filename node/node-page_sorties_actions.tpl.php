@@ -47,9 +47,19 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
    <div id="bloc-autres-vdl">
 
     <?php
+    /*
 global $theme_path;
 include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
-?>
+*/
+   ?>
+  
+
+        <?php if ($node->field_vue_autres_vdl[0]['view']): /*Affichage conditionnel du bloc Autres sorties*/?>
+        <div id="bloc-autres-vdl">
+                <?php  print $node->field_vue_autres_vdl[0]['view']; /*Autres sorties selon taxo type de vdl*/ ?>
+        </div>
+        <?php endif;?>
+       
    </div>
 
     
