@@ -1036,7 +1036,7 @@ h1.titre_vdl{
 
 }
 #block-aggregator-feed-1 ul li{
-    margin: 0;
+    margin: 5px 0;
     
 }
 #block-aggregator-feed-1 li a{
@@ -1044,6 +1044,7 @@ h1.titre_vdl{
     text-decoration: none;
     padding: 2px;
     display: block;
+    background: white;
     
     
 }
@@ -1095,7 +1096,7 @@ h3.titre-bloc-actus-generales{
    
 }
 #views-exposed-form-Actualites-liste-globale-block-1{
-    width: 65%;
+    width: 95%;
     margin: 0 auto;
 }
 #views-exposed-form-Actualites-liste-globale-block-1 .date-views-filter-wrapper{

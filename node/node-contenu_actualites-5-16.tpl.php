@@ -8,8 +8,9 @@
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_pl"><?php print $title; ?></h1>
      <?php endif; ?>
-     <br clear="all"/>
-      <?php
+   <br clear="all"/>
+ <?php
+ /* inclusion d'une region pour bloc dans colonne de gauche*/
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>

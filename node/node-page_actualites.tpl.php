@@ -1,9 +1,9 @@
-<!--______________NODE TPL POUR TdC PAGE CONTENU ACTUALITE CUSTOM________________ -->
+<!--______________NODE TPL POUR TdC PAGE ACTUALITE GLOBALE CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
   <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
-<div id="pageLycee_col_G1">
+<div id="page_actualites_col_G1">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_pl"><?php print $title; ?></h1>
      <?php endif; ?>
@@ -18,7 +18,7 @@
        
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
-<div id="pageLycee_col_G2">
+<div id="page_actualites_col_G2">
      <?php if ($submitted): ?>
       <span class="submitted"><?php print $submitted; ?></span>
     <?php endif; ?>
@@ -26,16 +26,7 @@
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value']
       ?>
-         <br />
-          <?php
-                  global $theme_path;
-                  include ($theme_path.'/includes/inc_choix_galerie_vdl_actu.php');
-                  ?>
-      <br/>
- <?php
-                  global $theme_path;
-                  include ($theme_path.'/includes/inc_actus_video.php');
-                  ?>
+            
       
       <?php
               global $theme_path;
@@ -46,7 +37,7 @@
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
-<div id="pageLycee_col_G3">
+<div id="page_actualites_col_G3">
      <?php print $picture; ?>
 
    

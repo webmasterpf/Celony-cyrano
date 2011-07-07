@@ -14,6 +14,12 @@
 global $theme_path;
 include ($theme_path.'/includes/inc_field_diapo_fiche_flash.php');
 ?>
+        <br clear="all"/>
+ <?php
+ /* inclusion d'une region pour bloc dans colonne de gauche*/
+              global $theme_path;
+              include ($theme_path.'/includes/inc_region_col_G1.php');
+              ?>
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
 <div id="fiche_col_G2">

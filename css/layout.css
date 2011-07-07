@@ -403,3 +403,53 @@ LAYOUT POUR NODE.TPL WEBFORM
     height: 100%;
     display: table-cell;
 }
+
+/*\\\\\\\\\\\\\//////////////////
+---------------------------------------------------
+LAYOUT POUR PAGE.TPL PAGE ACTUALITES
+---------------------------------------------------*/
+
+/*inner content*/
+#content-inner-page-actualites{
+    width:auto;
+    margin:0 auto;
+    float:left;
+
+}
+/*///    partie du centre   ///*/
+#middle-content-page-actualites{
+	float:left;
+	position:relative;
+	background-color:transparent;
+	width:auto;
+	padding:5px;
+}
+/*---------------------------------------------------
+LAYOUT POUR NODE.TPL PAGE ACTUALITES
+---------------------------------------------------*/
+
+#page_actualites_col_G1{
+    float: left;
+    width: 190px;
+    background: transparent;
+    height: 100%;
+    display: table-column;
+}
+#page_actualites_col_G2{
+    float: left;
+    width: 555px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+     border-right: 1px solid #ADC821;
+     border-left: 1px solid #91127D;
+     padding: 5px;
+}
+#page_actualites_col_G3{
+    float: left;
+    padding: 5px;
+    width: 210px;
+    background: transparent;
+    height: 100%;
+    display: table-cell;
+}

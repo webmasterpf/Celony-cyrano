@@ -15,7 +15,12 @@
 global $theme_path;
 include ($theme_path.'/includes/inc_field_diapo_slideshow_multimage.php');
 ?>
-    
+  <br clear="all"/>
+ <?php
+ /* inclusion d'une region pour bloc dans colonne de gauche*/
+              global $theme_path;
+              include ($theme_path.'/includes/inc_region_col_G1.php');
+              ?>
 </div><!-- fin colonne G1-->
 <!--______________COLONNE GAUCHE 2 : pole services________________ -->
 <div id="fiche_col_G2">

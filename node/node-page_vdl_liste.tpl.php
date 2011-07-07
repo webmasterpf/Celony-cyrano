@@ -9,6 +9,7 @@
      <br clear="all"/>
     <?php endif; ?>
               <?php
+              /*Region pour bloc dans colonne de G*/
               global $theme_path;
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
