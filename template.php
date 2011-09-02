@@ -27,7 +27,6 @@ $term = preg_replace('<code>\s+</code>', '<em>', trim($term));
   "aaaaaaaaaaaaooooooooooooeeeeeeeecciiiiiiiiuuuuuuuuynn");
   return ($NomTermeValide);
 }
-
 function cyrano_ce_preprocess_node(&$vars, $hook) {
 //Partie regions dans node.tpl- ajoute les regions utiles au node.tpl
  $vars['pole_bloc_G'] = theme('blocks', 'pole_bloc_G');
@@ -63,7 +62,6 @@ if ( in_array($node->type,$lesTypes) ) {
     }
 }
 ?>
-
 <?php
 // fonction pour avoir la possibilité de faire un template pour page recherche
 function phptemplate_preprocess_page(&$vars) {

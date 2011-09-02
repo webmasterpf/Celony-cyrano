@@ -26,7 +26,7 @@ body {
 ul,li,dl,dd,dt{
     list-style-position: inside;
 }
-
+.feed-icon{ float: right;  margin: 2px;}
  /*------------------------------------------------------*
   *--------    CSS BLOCS     						 ----*
   *------------------------------------------------------*/
