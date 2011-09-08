@@ -16,7 +16,7 @@ OR $node->field_fichier_audio_rp[0]['view']
         <?php if ($node->field_fichier_joint_rp[0]['view']): ?>
         <tr>
             <td>
-                                    <?php  print $node->field_fichier_joint_rp[0]['view'] /*Fichier joint 1*/ ?>
+              <?php  print $node->field_fichier_joint_rp[0]['view'] /*Fichier joint 1*/ ?>
                 <hr class="ombrage_bas"/>
             </td>
         </tr>
