@@ -40,7 +40,7 @@ function cyrano_ce_preprocess_node(&$vars, $hook) {
 $node = $vars['node'];
 $lesTypes=array('page_fiche_formation', 'page_pole','contenu_actualites');
 //ajouter les vids possibles pour chaque quelquesoit le type
-$lesVid=array('1','5');// vid 1 pour pole formation, vid 5 pour type actualite
+$lesVid=array('1','5');// vid 1 pour pole formation, vid 5 pour type actualite VID:6 en PROD
 // on regarde si le type est dans le tableau
 if ( in_array($node->type,$lesTypes) ) {
        if ( ! empty($node->taxonomy)  ) {

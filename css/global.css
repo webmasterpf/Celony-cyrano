@@ -586,12 +586,26 @@ h1.titre_pl a:hover{}
 #pageLycee_col_G2 ul{
     padding: 5px;
 }
-#pageLycee_col_G2 img{
+#pageLycee_col_G2 a img {
+    background: 0;
+    
 
 }
 
-#pageLycee_col_G2 a{}
-#pageLycee_col_G2 a:hover{}
+#pageLycee_col_G2 a{
+    background: #AEC821;
+    color: #EFEFEF;
+    text-decoration: none;
+    padding: 3px;
+    margin: 5px;
+}
+#pageLycee_col_G2 a:hover{
+    color: #AEC821;
+    background: none;
+     -moz-box-shadow: #AAAAAA 0px 0px 5px ;
+    -webkit-box-shadow: #AAAAAA 0px 0px 5px;
+    box-shadow: #AAAAAA 0px 0px 5px;
+}
 
 #pageLycee_col_G2 h2 a{}
 #pageLycee_col_G2 h2 a:hover{}
@@ -770,6 +784,17 @@ display: none;
 }
 #bloc-galerie-vdl .overlay-inner p{
     color: white;
+}
+#bloc-galerie-vdl .vignettes-zoom a, #bloc-galerie-vdl .vignettes-zoom a:hover{
+    background: 0;
+    text-decoration: none;
+     -moz-box-shadow: none ;
+    -webkit-box-shadow: none ;
+    box-shadow: none ;
+    color: none;
+    }
+#bloc-galerie-vdl .vignettes-zoom img{
+border: 3px solid #AEC821;
 }
 /*------- LISTE VDL SIMILAIRE ------------*/
 #bloc-autres-vdl{}
@@ -1150,3 +1175,12 @@ h3.titre-bloc-actus-generales{
     border: 2px solid #E5E6E8;
     padding: 3px;
 }
+/*----------------------------------------
+*****~~~~~~ PAGE CDI  ~~~~~~~~~~~~*********
+------------------------------------------*/
+
+/*Table fichiers joints*/
+#docs-utiles-cdi{}
+
+/*Table liens*/
+#liens-utiles-cdi{}

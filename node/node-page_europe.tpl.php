@@ -52,10 +52,10 @@ include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
         <div id="bloc-autres-vdl">
 
     <?php
-    /*
+    
 global $theme_path;
 include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
-*/
+
      ?>
 
    </div>

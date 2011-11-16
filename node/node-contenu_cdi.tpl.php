@@ -1,4 +1,4 @@
-<!--______________NODE TPL POUR TdC PAGE CONTENU ACTUALITE CUSTOM________________ -->
+<!--______________NODE TPL POUR TdC PAGE CONTENU CDI CUSTOM________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
@@ -8,12 +8,7 @@
      <h1 class="titre_pl"><?php print $title; ?></h1>
      <?php endif; ?>
    <br clear="all"/>
-     <!-- infos en plus-->
-    <?php
-                  global $theme_path;
-                  include ($theme_path.'/includes/inc_actus_item_infos_plus.php');
-                  ?>
- <br clear="all"/>
+
                   <?php
  /* inclusion d'une region pour bloc dans colonne de gauche*/
               global $theme_path;
@@ -33,15 +28,24 @@
       print $node->content['body']['#value']
       ?>
          <br />
+   <?php
+                  global $theme_path;
+                  include ($theme_path.'/includes/inc_cdi_table_fichiers.php');
+                  ?>
+
+            <?php
+                  global $theme_path;
+                  include ($theme_path.'/includes/inc_cdi_table_liens.php');
+                  ?>
+    
+
+         
           <?php
                   global $theme_path;
                   include ($theme_path.'/includes/inc_choix_galerie_vdl_actu.php');
                   ?>
       <br/>
- <?php
-                  global $theme_path;
-                  include ($theme_path.'/includes/inc_actus_video.php');
-                  ?>
+
       
       <?php
               global $theme_path;
@@ -61,7 +65,7 @@
 
         <?php
                   global $theme_path;
-                  include ($theme_path.'/includes/inc_actus_bloc_rp.php');
+                  include ($theme_path.'/includes/inc_celony_actus.php');
                   ?>
         
         <br clear="all"/>

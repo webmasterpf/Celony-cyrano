@@ -9,16 +9,18 @@
      <h1 class="titre_pl"><?php print $title; ?></h1>
      <?php endif; ?>
   <br clear="all"/>
- <?php
- /* inclusion d'une region pour bloc dans colonne de gauche*/
-              global $theme_path;
-              include ($theme_path.'/includes/inc_region_col_G1.php');
-              ?>
+
        <!-- infos en plus-->
     <?php
                   global $theme_path;
                   include ($theme_path.'/includes/inc_actus_item_infos_plus.php');
                   ?>
+ <br clear="all"/>
+                  <?php
+ /* inclusion d'une region pour bloc dans colonne de gauche*/
+              global $theme_path;
+              include ($theme_path.'/includes/inc_region_col_G1.php');
+              ?>
 </div>
 <!--______________COLONNE GAUCHE 2________________ -->
 <div id="pageLycee_col_G2">
