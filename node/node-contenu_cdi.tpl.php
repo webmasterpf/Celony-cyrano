@@ -28,16 +28,24 @@
       print $node->content['body']['#value']
       ?>
          <br />
+         <table id="cdi-utile">
+             <tbody>
+                 <tr><td>
    <?php
                   global $theme_path;
                   include ($theme_path.'/includes/inc_cdi_table_fichiers.php');
                   ?>
+                     </td>
 
+                     <td>
             <?php
                   global $theme_path;
                   include ($theme_path.'/includes/inc_cdi_table_liens.php');
                   ?>
-    
+                     </td>
+                 </tr>
+                  </tbody>
+    </table>
 
          
           <?php

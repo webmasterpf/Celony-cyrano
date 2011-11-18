@@ -1179,8 +1179,61 @@ h3.titre-bloc-actus-generales{
 *****~~~~~~ PAGE CDI  ~~~~~~~~~~~~*********
 ------------------------------------------*/
 
+/*Table globale*/
+#cdi-utile{
+    width: 540px;
+    display: block;
+    margin: 0 auto;
+}
+#cdi-utile tbody{}
+#cdi-utile tr{}
+#cdi-utile td{
+    vertical-align: top;
+}
+
+/*reset style commun table CDI*/
+.table-cdi{
+    background: none;
+    border: 0;
+    margin: 5px;
+}
+.table-cdi tbody{}
+.table-cdi tr{
+    background: none;
+    border-bottom: 1px solid #AEC821;
+}
+.table-cdi td{
+    background: none;
+}
+.table-cdi a{
+    padding: 3px;
+}
 /*Table fichiers joints*/
 #docs-utiles-cdi{}
-
+#docs-utiles-cdi h3{
+    color: #00ACD1;
+}
+#docs-utiles-cdi a{
+    background: none;
+    color: black;
+}
+#docs-utiles-cdi a:hover{
+    background: none;
+    color: black;
+}
+#docs-utiles-cdi .filefield-icon {
+    display: none;
+}
 /*Table liens*/
-#liens-utiles-cdi{}
+#liens-utiles-cdi{
+     background: none repeat scroll 0 0 #EEEEE0;
+}
+#liens-utiles-cdi h3{}
+#liens-utiles-cdi a{
+    background: none;
+    color: black;
+}
+#liens-utiles-cdi a:hover{
+    background: none;
+    color: black;
+}

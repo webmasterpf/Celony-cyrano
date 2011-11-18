@@ -12,7 +12,7 @@ $attributes = array(
   'border'      => 1,
   'cellspacing' => 0,
   'cellpadding' => 5,
-  'class'       => 'table-maclasse'
+  'class'       => 'table-cdi'
 );
 // Table Rows
 foreach($node->field_fichiers_cdi as $file) {

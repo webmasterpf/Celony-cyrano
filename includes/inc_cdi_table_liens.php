@@ -12,7 +12,7 @@ foreach($node->field_lien_cdi as $file) {
       $rows[] = array($file['view']);
     }
 }
-$output = theme_table(array(), $rows, array('class' => 'table-maclasse'));
+$output = theme_table(array(), $rows, array('class' => 'table-cdi'));
 print $output;
 ?>
 
