@@ -994,7 +994,7 @@ h1.titre_vdl{
     margin: 2px 0;
     padding: 5px;
     display: block;
-    border-bottom: 1px solid #950F7E;
+    border-bottom: 2px solid #950F7E;
 }
 #table-bloc-vdl-liste td:hover{
     background: #AEC81F;
@@ -1009,11 +1009,12 @@ h1.titre_vdl{
     text-decoration: underline;
     color: white;
 }
-#table-bloc-vdl-liste span.date-display-single{
+#table-bloc-vdl-liste span.date-display-single,#table-bloc-vdl-liste .views-field-field-date-evenement-value{
     text-align: right;
-    float: right;
+    /*float: right;*/
     font-style: italic;
 }
+
 /*Bloc filtre exposé de view pour l'année - archives*/
 #block-views--exp-liste_actu_lycee-block_1{
     width: 160px;
