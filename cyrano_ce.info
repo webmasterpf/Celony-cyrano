@@ -54,6 +54,8 @@ regions[pole_bloc_D] = Bloc pour pole Droit
 regions[col_G1] = Bloc pour colonne G1
 regions[col_G2] = Bloc pour colonne G2
 regions[col_G3] = Bloc pour colonne G3
+;Region pour admin dans node.tpl
+regions[content_top_node] = Conntent top node pour admin
 
 settings[basic_zen_tabs]             = 1
 settings[basic_wireframe]            = 0

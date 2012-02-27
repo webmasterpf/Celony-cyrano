@@ -186,7 +186,15 @@ float: left;
     font-size: 18px;
     margin: 0 0 10px;
 }
-
+.PartieDroite1 a{
+    color: #AEC821;
+    padding: 2px;
+}
+.PartieDroite1 a:hover{
+    color: black;
+    background: #AEC821;
+    text-decoration: none;
+}
 /*---DIAPORAMA HOMEPAGE TEXTE DYNAMIQUE----*/
 #transparency{
 background:none repeat scroll 0 0 #AEC821;

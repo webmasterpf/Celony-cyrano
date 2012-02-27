@@ -11,6 +11,13 @@
             </div> <!-- /#content-top -->
           <?php endif; ?>
 
+            <!-- ______________________ CONTENT TOP NODE_______________________ -->
+               <?php if ($content_top_node): ?>
+            <div id="content-top-node">
+	              <?php print $content_top_node; ?>
+            </div> <!-- /#content-top-node -->
+            <?php endif; ?>
+            
             <!-- ______________________ PARTIE GAUCHE _______________________ -->
 
 	<div id="HPGauche">

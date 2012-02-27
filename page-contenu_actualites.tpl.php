@@ -11,7 +11,14 @@
 
               <?php print $content_top; ?>
             </div> <!-- /#content-top -->
-	  
+
+            <!-- ______________________ CONTENT TOP NODE_______________________ -->
+               <?php if ($content_top_node): ?>
+            <div id="content-top-node">
+	              <?php print $content_top_node; ?>
+            </div> <!-- /#content-top-node -->
+            <?php endif; ?>
+            
          <!-- ______________________ COLONNE CENTRALE INNER _______________________ -->
         <div id="content-inner-vdl">
 		             
