@@ -176,6 +176,11 @@ float: left;
     width: 360px;
     margin: 0 auto;
 }
+.illus_lyceeMetiers{
+    margin: 0 auto;
+    display: block;
+    padding: 5px;
+}
 /*-----------------------------------------
 ************ LISTE ACTU ********************
 -------------------------------------------*/
