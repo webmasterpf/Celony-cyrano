@@ -782,6 +782,12 @@ display: none;
     color: #94127F;
 
 }
+#bloc-galerie-vdl a{
+    background:none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 #bloc-galerie-vdl .overlay-inner p{
     color: white;
 }
@@ -974,11 +980,7 @@ h1.titre_vdl{
 #pageVdl_col_G3 h4 a:hover{}
 
 /*Table pour la vue filtre dyn sur tid*/
-#table-bloc-vdl-liste{
-    width: 550px;
-    margin: 0 auto;
-    border: 0;
-}
+#table-bloc-vdl-liste{width: 490px;margin: 0 auto;border: 0;border-top: 3px solid #AEC81F;}
 #table-bloc-vdl-liste thead th{
     border-bottom: 3px solid #AEC81F;
 }
@@ -1238,3 +1240,28 @@ h3.titre-bloc-actus-generales{
     background: none;
     color: black;
 }
+/*********************************
+----------------------------------
+---- RESEAUX SOCIAUX Service links
+---------------------------------*/
+.service-links, #content-bottom-home .service-links{
+    background: none repeat scroll 0 0 #EFEFEF;
+    display: block;
+    margin: 0 auto;
+    padding: 2px;
+    text-align: center;
+    width: 850px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   behavior: url(/sites/all/libraries/PIE/PIE.htc);
+   position: relative;
+}
+.service-links a{
+    margin: 0 5px;
+    color: #F29400;
+}
+.service-links a:hover{
+    text-decoration: none;
+}
+.service-links{}

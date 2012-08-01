@@ -30,6 +30,8 @@ regions[PartieDroite1] = Zone Droite 1 HP - Bloc
 regions[PartieDroite2] = Zone Droite 2 HP - Bloc
 regions[PartieDroite3] = Zone Droite 3 HP - Bloc
 regions[content_top] = Content top
+;Region pour admin dans node.tpl
+regions[content_top_node] = Conntent top node pour admin
 regions[formulaire] = Zone formulaire bloc
 regions[left] = Colonne Gauche
 regions[decoTitre] = Titre deco image - Fiche Formations
@@ -54,8 +56,7 @@ regions[pole_bloc_D] = Bloc pour pole Droit
 regions[col_G1] = Bloc pour colonne G1
 regions[col_G2] = Bloc pour colonne G2
 regions[col_G3] = Bloc pour colonne G3
-;Region pour admin dans node.tpl
-regions[content_top_node] = Conntent top node pour admin
+
 
 settings[basic_zen_tabs]             = 1
 settings[basic_wireframe]            = 0

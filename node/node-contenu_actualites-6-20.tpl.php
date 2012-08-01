@@ -13,7 +13,7 @@
        <!-- infos en plus-->
     <?php
                   global $theme_path;
-                  include ($theme_path.'/includes/inc_actus_item_infos_plus.php');
+                  include ($theme_path.'/includes/inc_actus_liste_docs.php');
                   ?>
  <br clear="all"/>
                   <?php

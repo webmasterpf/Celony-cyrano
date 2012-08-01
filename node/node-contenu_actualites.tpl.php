@@ -9,10 +9,10 @@
      <?php endif; ?>
    <br clear="all"/>
      <!-- infos en plus-->
-    <?php
-                  global $theme_path;
-                  include ($theme_path.'/includes/inc_actus_item_infos_plus.php');
-                  ?>
+   <?php
+   global $theme_path;
+   include ($theme_path.'/includes/inc_actus_liste_docs.php');
+   ?>
  <br clear="all"/>
                   <?php
  /* inclusion d'une region pour bloc dans colonne de gauche*/
