@@ -2,7 +2,7 @@
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1________________ -->
-  <!-- <pre> <?php print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
+
 <div id="pageSortieActions_col_G1">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_vdl_sortie"><?php print $title; ?></h1>
@@ -72,13 +72,14 @@ include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
       <div class="taxonomy"><?php //print $terms; ?></div>
     <?php endif;?>
 
+    
     <?php if ($links): ?>
-      <div class="links"> <?php print $links; ?></div>
+      <div class="links"> <?php //print $links; ?></div>
     <?php endif; ?>
 
 </div>
    
-
+  <!-- <pre> <?php print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
   </div> <!-- /node-inner -->
 </div> <!-- /node-->
 <!--______________FIN NODE TPL CUSTOM________________ -->
