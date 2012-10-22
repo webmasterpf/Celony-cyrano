@@ -1,4 +1,5 @@
-<?php include "inc_header.php"; ?>
+<?php $theme_path = drupal_get_path('theme', 'cyrano_ce'); include ($theme_path.'/includes/inc_header.php'); ?>
+
  <!-- ______________________ LAYOUT PAGE VIE DU LYCEE - LISTE CELONY PAGE.TPL_______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
@@ -21,10 +22,7 @@
    
         <!-- ______________________ CONTENT INNER _______________________ -->
         <div id="content-inner-vdl" class="inner column center">
-		             
-		
-           
-
+	
           <?php if ($mission || $messages || $help || $tabs): ?>
             <div id="content-header">              
 
@@ -44,14 +42,11 @@
           <?php endif; ?>
 		  <!-- ______________________ CONTENU CENTRAL _______________________ -->
           <div id="middle-content-vdl">
-           <!-- <pre> <?php print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
+       
             <?php print $content; ?>
               <?php print $feed_icons; ?>
           </div> <!-- /#content-area -->
-
         
-
-          
           
       </div> <!-- /content-inner /content -->
 
@@ -67,8 +62,8 @@
 		 
 
    
-    	 <br clear="all"/>
-         <!-- ______________________ CONTENU BAS _______________________ -->
+    	 <br class="clearBoth"/>
+           <!-- ______________________ CONTENU BAS _______________________ -->
 <?php if ($content_bottom): ?>
             <div id="content-bottom">
               <?php print $content_bottom; ?>
@@ -76,6 +71,6 @@
           <?php endif; ?>
 	 </div> <!-- /contentPage -->
 	  
-	  <?php include "inc_footer.php";?>
+<?php $theme_path = drupal_get_path('theme', 'cyrano_ce'); include ($theme_path.'/includes/inc_footer.php'); ?>
          <?php endif; ?>
-     
+    

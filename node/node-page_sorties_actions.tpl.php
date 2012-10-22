@@ -8,13 +8,13 @@
      <h1 class="titre_vdl_sortie"><?php print $title; ?></h1>
      
     <?php endif; ?>
-      <br clear="all"/>
+      <br class="clearBoth"/>
        <!-- Table pour infos en plus -->
         <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_vdl_table_infos_plus.php');
 ?>
-        <br clear="all"/>
+        <br class="clearBoth"/>
  <?php
  /* inclusion d'une region pour bloc dans colonne de gauche*/
               global $theme_path;

@@ -12,4 +12,4 @@ if ($col_G1): ?>
     <?php  print $col_G1; ?>
 </div>
     <?php endif; ?>
-<br clear="all"/>
+<br class="clearBoth"/>

@@ -9,4 +9,4 @@
 if ($col_G2): ?>
     <?php  print $col_G2; ?>
 <?php endif; ?>
-<br clear="all"/>
+<br class="clearBoth"/>

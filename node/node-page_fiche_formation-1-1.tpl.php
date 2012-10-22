@@ -8,14 +8,14 @@
      <h1 class="titre_pole_tertiaire"><?php print $title; ?></h1>
 
     <?php endif; ?>
-      <br clear="all"/>
+      <br class="clearBoth"/>
    
 
 <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_field_diapo_slideshow_multimage.php');
 ?>
-  <br clear="all"/>
+  <br class="clearBoth"/>
  <?php
  /* inclusion d'une region pour bloc dans colonne de gauche*/
               global $theme_path;

@@ -5,7 +5,7 @@
  <div id="pageVdl_col_G1">
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_vdl"><?php print $title; ?></h1>
-     <br clear="all"/>
+     <br class="clearBoth"/>
     <?php endif; ?>
               <?php
               /*Region pour bloc dans colonne de G*/

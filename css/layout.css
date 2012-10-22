@@ -27,8 +27,12 @@ ul,li,dl,dd,dt{
     list-style-position: inside;
 }
 .feed-icon{ float: right;  margin: 2px;}
+/*Pour les br,ajout d'une classe clear..'*/
+.clearBoth {clear: both;}
+.clearRight {clear: right;}
+.clearLeft {clear: left;}
  /*------------------------------------------------------*
-  *--------    CSS BLOCS     						 ----*
+  *--------    CSS BLOCS     			 ----*
   *------------------------------------------------------*/
 
 

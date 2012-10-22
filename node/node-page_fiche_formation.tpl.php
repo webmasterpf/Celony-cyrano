@@ -8,13 +8,13 @@
      <h1 class="titre_fiche"><?php print $title; ?></h1>
      
     <?php endif; ?>
-      <br clear="all"/>
+      <br class="clearBoth"/>
        <!-- Diapo deco fiche formation -->
     <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_field_diapo_fiche_flash.php');
 ?>
-        <br clear="all"/>
+        <br class="clearBoth"/>
  <?php
  /* inclusion d'une region pour bloc dans colonne de gauche*/
               global $theme_path;

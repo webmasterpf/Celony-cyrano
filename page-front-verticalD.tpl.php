@@ -1,4 +1,4 @@
-<?php include "inc_header.php"; ?>
+<?php $theme_path = drupal_get_path('theme', 'cyrano_ce'); include ($theme_path.'/includes/inc_header.php'); ?>
 <!-- ______________________ LAYOUT HOMEPAGE VERTICAL D_______________________ -->
  <!-- ______________________ CONTENU _______________________ -->
 
@@ -46,7 +46,7 @@
 
 
 
-	<br clear="all"/>
+	<br class="clearBoth"/>
 	<!-- ______________________ CONTENU BAS _______________________ -->
     <?php if ($content_bottom_home): ?>
     <div id="content-bottom-home">
@@ -60,4 +60,4 @@
 
 
 	 </div> <!-- /mainPage -->
-     <?php include "inc_footer.php";?>
+     <?php $theme_path = drupal_get_path('theme', 'cyrano_ce'); include ($theme_path.'/includes/inc_footer.php'); ?>

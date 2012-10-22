@@ -8,10 +8,10 @@
      <h1 class="titre_pl"><?php print $title; ?></h1>
      
     <?php endif; ?>
-      <br clear="all"/>
+      <br class="clearBoth"/>
        <!-- Deco page-->
     <?php  print $node->field_image_deco_lycee[0]['view'] /*Image deco page lycee*/ ?>
-<br clear="all"/>
+<br class="clearBoth"/>
  <?php
  /* inclusion d'une region pour bloc dans colonne de gauche*/
               global $theme_path;
@@ -45,7 +45,7 @@ global $theme_path;
 include ($theme_path.'/includes/inc_lycee_docs_joints.php');
 ?>
         
-        <br clear="all"/>
+        <br class="clearBoth"/>
            <?php if ($node->field_vue_actus_lycee[0]['view']): ?>
         <div id="bloc-actu-lycee">
            <?php  print $node->field_vue_actus_lycee[0]['view'] /*Vue actus du lycée*/ ?>

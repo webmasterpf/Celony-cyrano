@@ -1,4 +1,4 @@
-<?php include "inc_header.php"; ?>
+<?php $theme_path = drupal_get_path('theme', 'cyrano_ce'); include ($theme_path.'/includes/inc_header.php'); ?>
  <!-- ______________________ LAYOUT PAGE EUROPE CELONY PAGE.TPL OVERRIDE PAR NODE.TPL CUSTOM_______________________ -->
   <!-- ______________________ CONTENU _______________________ -->
   
@@ -67,7 +67,7 @@
 		
 
    
-    	 <br clear="all"/>
+    	 <br class="clearBoth"/>
          <!-- ______________________ CONTENU BAS _______________________ -->
 <?php if ($content_bottom): ?>
             <div id="content-bottom">
@@ -76,6 +76,6 @@
           <?php endif; ?>
 	 </div> <!-- /contentPage -->
 	  
-	  <?php include "inc_footer.php";?>
+	  <?php $theme_path = drupal_get_path('theme', 'cyrano_ce'); include ($theme_path.'/includes/inc_footer.php'); ?>
          <?php endif; ?>
      

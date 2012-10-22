@@ -90,7 +90,7 @@ print $content;
        
 
    
-    	 <br clear="all"/>
+    	 <br class="clearBoth"/>
          <!-- ______________________ CONTENU BAS _______________________ -->
          <div id="footer-offline">
              

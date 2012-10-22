@@ -27,4 +27,4 @@ print $output;
 
 ?>        </div>
            <?php endif;?>
-<br clear="all"/>
+<br class="clearBoth"/>
