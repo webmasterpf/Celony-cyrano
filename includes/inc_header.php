@@ -9,7 +9,11 @@
     <meta name="msvalidate.01" content="E2114447554473259DE0996EF11B87E0" />
     <?php print $head; ?>
     <?php print $styles; ?>
-    
+    <!-- Utilisation de plusieurs versions de Jquery   -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+  <script type="text/javascript">
+    var $jq = jQuery.noConflict();
+  </script> 
     <?php print $scripts; ?>
     <!--<script src="<?php //print $base_path . path_to_theme() ?>/js/typos.js" type="text/javascript" charset="utf-8"></script>-->
        <!--[if IE]>

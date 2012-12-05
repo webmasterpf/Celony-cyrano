@@ -66,7 +66,7 @@
        
 		
    
-    	 <br class="clearBoth"/>
+    	 <br clear="all"/>
          <!-- ______________________ CONTENU BAS _______________________ -->
 <?php if ($content_bottom): ?>
             <div id="content-bottom">

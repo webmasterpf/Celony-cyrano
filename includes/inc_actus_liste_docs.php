@@ -10,17 +10,15 @@
  */
 
 ?>
-
-
-    <?php
+<?php
 
 $viewname_ld1 = 'Liste_docs';
 $view = views_get_view ($viewname_ld1);
 $viewdisplay_ld1 = $view->set_display('block_1');
 $args_ld1 = $view->set_arguments(array($node->nid));
 
-$emptyTextVue = $view->display_handler->get_option('empty');
-//$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe">TEXTE VIDE A liste_docs_actus.</div>');
+//$emptyTextVue = $view->display_handler->get_option('empty');
+$emptyText = $view->display_handler->set_option('empty','<div class="ma-classe">Pas de contenu disponible.</div>');
 
 //Exécution de le vue
 $view->pre_execute();
@@ -36,8 +34,8 @@ print $output;
 //sinon affiche texte vide
 elseif (empty($view->result)) {
     //Formatage du texte vide,ajout du titre de la vue
-    // $outputEmpty = '<div id="liste_docs_actus"><h3 class="classe-h3">'.$view->get_title().'</h3>'.$emptyText.'</div>';
-     $outputEmpty = '<div id="liste_docs_actus"><h3 class="classe-h3">'.$view->get_title().'</h3>'.$emptyTextVue.'</div>';
+     $outputEmpty = '<div id="liste_docs_actus"><h3 class="classe-h3">'.$view->get_title().'</h3>'.$emptyText.'</div>';
+    // $outputEmpty = '<div id="liste_docs_actus"><h3 class="classe-h3">'.$view->get_title().'</h3>'.$emptyTextVue.'</div>';
     // drupal_set_message('$EmptyTextVue : '.$emptyTextVue.'status');
      //Affichage du texte vide
   print $outputEmpty;

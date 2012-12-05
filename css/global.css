@@ -635,7 +635,7 @@ h1.titre_pl a:hover{}
 #pageLycee_col_G3 h4 a:hover{}
 
 /*--------- LISTE VUE FICHIERS DOCS JOINTS (Colonne G3)--------*/
-h3.titre_liste_doc{
+#liste_docs_actus h3.classe-h3{
     text-align: center;
     color: #AFC824;
     font-family: arista,Trebuchet MS, sans-serif;
@@ -734,7 +734,7 @@ h1.titre_vdl_sortie{
 #table_infos_plus{
     margin: 0 auto;
     width: 170px;
-    background: transparent url('../images/bg_infos_plus_vdl.jpg') no-repeat left 25px;
+    background: transparent url('../images/bg_infos_plus_vdl.jpg') no-repeat left 0px;/*25px*/
 }
 #table_infos_plus h3{
    font-family: arista,Trebuchet MS, sans-serif;
@@ -1001,6 +1001,8 @@ h1.titre_vdl{
 #table-bloc-vdl-liste td:hover{
     background: #AEC81F;
 }
+#table-bloc-vdl-liste td img{border: 2px solid #91127D;}
+#table-bloc-vdl-liste td img a{}
 #table-bloc-vdl-liste p{}
 #table-bloc-vdl-liste a{
     color: #950F7E;
@@ -1017,26 +1019,7 @@ h1.titre_vdl{
     font-style: italic;
 }
 
-/*Bloc filtre exposé de view pour l'année - archives*/
-#block-views--exp-liste_actu_lycee-block_1{
-    width: 160px;
-    margin: 0 auto;
-    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    padding: 10px 5px;
-   
-}
-#block-views--exp-liste_actu_lycee-block_1 h3{
-   font-family: arista,Trebuchet MS, sans-serif;
-   text-align: center;
-   color: #01ABCF;
-   font-size: 1.5em;
-   margin: 0;
-}
-#block-views--exp-liste_actu_lycee-block_1 select{
-    margin: 0 auto;
-}
+
 /*----------------------------------------
 *****~~~~~~ PAGE VDL  ~~~~~~~~~~~~*********
 -----PAGE ACTUALITES et ITEMS ACTU RP Annonce-----
@@ -1089,21 +1072,27 @@ h3.titre-bloc-actus-generales{
    font-size: 1.8em;
    margin: 0;
 }
-#vue-bloc-actus-generales table{
-    padding: 5px;
-}
+#vue-bloc-actus-generales table
+{ padding: 5px;width: 98%;}
 #vue-bloc-actus-generales tbody{}
 #vue-bloc-actus-generales tr{
-    margin: 5px 0;
-}
-#vue-bloc-actus-generales td{
-    margin: 5px 0;
+    background: #EFEFEF;
+    background-color: #EFEFEF;
     display: block;
+    margin: 2px 0;}
+#vue-bloc-actus-generales tr:hover{ background: #e8efbf;   }
+#vue-bloc-actus-generales td{
+    padding: 2px 0;
+    display: inline-block;
+    width: 100%;
 }
+#vue-bloc-actus-generales td:hover{border-right: #AEC821 solid 2px;}
+
 #vue-bloc-actus-generales hr{
     border-top: 1px solid #911381;
     width: 75%;
     margin: 0 auto;
+    display: none;
 }
 #vue-bloc-actus-generales td a{
     text-decoration: none;
@@ -1113,25 +1102,130 @@ h3.titre-bloc-actus-generales{
     color: #ADC91F;
   
 }
-#vue-bloc-actus-generales td a:hover{
-    color: #911381;
+
+#vue-bloc-actus-generales img{
+    border: #911381 1px solid;
+    float: right;
+    margin: 2px 4px;
+    padding: 2px;
 }
+#vue-bloc-actus-generales td a:hover{color: #911381;}
+#vue-bloc-actus-generales td img{border: 2px solid #91127D;float: right;}
+#vue-bloc-actus-generales td img :hover{opacity: 80;}
 #vue-bloc-actus-generales span.views-field-name,#vue-bloc-actus-generales span.views-field-created,#vue-bloc-actus-generales span.views-field-field-date-evenement-value{
     font-style: italic;
     font-size: 10px;
     padding: 0 5px;
-    text-align: right;
-   
+    text-align: right;   
 }
 #views-exposed-form-Actualites-liste-globale-block-1{
     width: 95%;
+    margin: 5px auto;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+#views-exposed-form-Actualites-liste-globale-block-1 .date-views-filter-wrapper
+{width: auto;min-width: 20%;}
+
+#views-exposed-form-Actualites-liste-globale-block-1 .views-widget-filter-field_date_evenement_value
+{margin: 0 0 0 110px;}
+/*Pager liste actu globale*/
+.view-Actualites-liste-globale ul.pager{margin: 3px auto;width: 95%;display: block;padding: 3px;}
+.view-Actualites-liste-globale .pager li
+{float: left;}
+.view-Actualites-liste-globale .pager li a{color:#1F1F1F;}
+.view-Actualites-liste-globale .pager li.pager-item,.view-Actualites-liste-globale .pager li.pager-current
+{padding: 3px;border-radius: 10px; height: 15px;width: 15px;}
+.view-Actualites-liste-globale .pager li.pager-item
+{background:#91127D ;color:#EFEFEF;}
+.view-Actualites-liste-globale .pager li.pager-item a{color:#EFEFEF;}
+.view-Actualites-liste-globale .pager li.pager-current
+{background: #AEC821;color:#3F3F3F;}
+
+/*
+== PAGE GLOBALE POUR VDL ou ACTU ===
+*/
+.content-page-globale{}
+#mur-visuel{padding: 0 0 30px 0;}
+/*Items*/
+.table-vdl-global{}
+.table-vdl-global tbody{display: block;width: 990px;padding: 10px;}
+.table-vdl-global td a{color: #94127F;text-decoration: none;}
+.table-vdl-global td a:hover{text-decoration: underline;}
+.table-vdl-global tr{margin: 2px 0;display: block;height: 160px;}
+.table-vdl-global td {padding: 0;margin: 0;}
+.table-vdl-global .field-content{height: 160px;}
+.table-vdl-global img{border: 2px solid #ACC624;padding: 1px;margin: 3px;}
+.table-vdl-global  span.titre-vdl{z-index:15;position: relative;bottom: 90px;
+background: #EFEFEF;color: #91127D;left: 5px;width: 145px;display: block;}
+.table-vdl-global .tooltip-vdl{padding: 0;height: 160px;position: relative;bottom: 30px;}
+.table-vdl-global .img-vdl{padding: 0;height: 160px;position: relative;bottom: 30px;}
+
+/*Europe 13  Partenaires 14 Sortie-actions 15*/
+.vdl-13,.vdl-Europe,.vdl-15,.vdl-Sortie-actions,.vdl-14,.vdl-Partenaires
+{position: relative;z-index: 10;display: block;
+width: 74px;height: 52px;top: 26px;left: 3px;}
+
+.vdl-13,.vdl-Europe
+{background: transparent url('../images/coin-globale-VDL-europe.png') no-repeat 0;}
+
+.vdl-14,.vdl-Partenaires
+{background: transparent url('../images/coin-globale-VDL-partenaire.png') no-repeat 0;}
+
+.vdl-15,.vdl-Sortie-actions
+{background: transparent url('../images/coin-globale-VDL-sortie.png') no-repeat 0;}
+/*Filtre exposé page globale*/
+#views-exposed-form-VDL-visuel-block-1{
+    width: 30%;  margin: 5px auto;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    border-radius: 5px;padding: 5px;}
+#views-exposed-form-VDL-visuel-block-1 h3{
+   font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #01ABCF;
+   font-size: 1.5em;
+   margin: 0;
+}
+#views-exposed-form-VDL-visuel-block-1 select{margin: 0 auto;}
+#views-exposed-form-VDL-visuel-block-1 .views-reset-button
+{margin: 0 auto;}
+#views-exposed-form-VDL-visuel-block-1 .views-exposed-widget
+{margin: 0 auto;}
+#views-exposed-form-VDL-visuel-block-1 .views-submit-button{}
+/*
+== Bloc filtre exposé de view pour l'année - archives ===
+*/
+/*Avec views 3 nvx noms de classes et ids : 
+views-exposed-form-liste-actu-lycee-block-5
+views-exposed-form-Actualites-liste-globale-block-1
+*/
+#views-exposed-form-liste-actu-lycee-block-5,#views-exposed-form-liste-actu-lycee-block-4,
+#views-exposed-form-liste-actu-lycee-block-3{
+    width: 160px;
+    margin: 15px auto;
+    background: transparent url(../images/zebra-gros-clair.gif) repeat ;
+    border-radius: 5px;
+    padding: 5px;
+   
+}
+#views-exposed-form-liste-actu-lycee-block-5 h3,#views-exposed-form-liste-actu-lycee-block-4 h3,
+#views-exposed-form-liste-actu-lycee-block-3 h3{
+   font-family: arista,Trebuchet MS, sans-serif;
+   text-align: center;
+   color: #01ABCF;
+   font-size: 1.5em;
+   margin: 0;
+}
+#views-exposed-form-liste-actu-lycee-block-5 select,#views-exposed-form-liste-actu-lycee-block-4 select,
+#views-exposed-form-liste-actu-lycee-block-3 select{
     margin: 0 auto;
 }
-#views-exposed-form-Actualites-liste-globale-block-1 .date-views-filter-wrapper{
-    width: auto;
-    min-width: 20%;
-}
-
+#views-exposed-form-liste-actu-lycee-block-5 .date-views-filter-wrapper .form-item,
+#views-exposed-form-liste-actu-lycee-block-4 .date-views-filter-wrapper .form-item,
+#views-exposed-form-liste-actu-lycee-block-3 .date-views-filter-wrapper .form-item
+{margin: 1px auto;width: 160px;display: block;}
 /*Vue liste des RP pour item actu*/
 #bloc_actus_rp h3{
    font-family: arista,Trebuchet MS, sans-serif;

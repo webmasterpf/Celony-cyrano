@@ -7,10 +7,10 @@
      <?php if ($title): /*insertion du titre de la page et style differencié*/?>
      <h1 class="titre_pl"><?php print $title; ?></h1>
      <?php endif; ?>
-   <br class="clearBoth"/>
+   <br clear="all"/>
  <?php
  /* inclusion d'une region pour bloc dans colonne de gauche*/
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_ce');
               include ($theme_path.'/includes/inc_region_col_G1.php');
               ?>
 
@@ -26,14 +26,17 @@
      /*insertion du contenu du corps de la page*/
       print $node->content['body']['#value']
       ?>
-            
+              <?php
+                  $theme_path = drupal_get_path('theme', 'cyrano_ce');
+                  include ($theme_path.'/includes/inc_actus_globale.php');
+                  ?>
       
       <?php
-              global $theme_path;
+              $theme_path = drupal_get_path('theme', 'cyrano_ce');
               include ($theme_path.'/includes/inc_region_col_G2.php');
               ?>
      <!-- retour haut selon resolution de l'ecran -->
-         <!-- <a href="#general" id="retour_haut">Haut de page</a>-->
+          <a href="#general" id="retour_haut">Haut de page</a>
 </div>
 <!--______________COLONNE GAUCHE 3________________ -->
    
@@ -45,11 +48,11 @@
     <div class="content">
 
         <?php
-                  global $theme_path;
+                  $theme_path = drupal_get_path('theme', 'cyrano_ce');
                   include ($theme_path.'/includes/inc_actus_bloc_rp.php');
                   ?>
         
-        <br class="clearBoth"/>
+        <br clear="all"/>
           
     </div>
 

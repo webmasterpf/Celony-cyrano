@@ -69,7 +69,7 @@ include ($theme_path.'/includes/inc_vdl_autres_evenements.php');
     <?php endif;?>
 
     <?php if ($links): ?>
-      <div class="links"> <?php print $links; ?></div>
+      <div class="links"> <?php //print $links; ?></div>
     <?php endif; ?>
 
 </div>
