@@ -62,7 +62,7 @@ padding:4px;
 /************PARTIE BASSE**************/
 #headBas{
 	width:990px;
-	height:115px;
+	height:130px;/*nicemenu : 115px superfish:130px*/
 	float:none;
 	display:block;
 	margin:5px 0 0 0;

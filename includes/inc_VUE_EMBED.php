@@ -10,10 +10,7 @@
  */
 
 ?>
-
-
-    <?php
-
+<?php
 $viewname_fl3 = 'Formations_lycee';
 $view = views_get_view ($viewname_fl3);
 $viewdisplay_fl3 = $view->set_display('block_3');
@@ -42,6 +39,4 @@ elseif (empty($view->result)) {
      //Affichage du texte vide
   print $outputEmpty;
 }
-
-
 ?>

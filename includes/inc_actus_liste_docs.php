@@ -34,7 +34,7 @@ print $output;
 //sinon affiche texte vide
 elseif (empty($view->result)) {
     //Formatage du texte vide,ajout du titre de la vue
-     $outputEmpty = '<div id="liste_docs_actus"><h3 class="classe-h3">'.$view->get_title().'</h3>'.$emptyText.'</div>';
+     $outputEmpty = '<div id="liste_docs_actus"><h3 class="classe-h3 vide">'.$view->get_title().'</h3>'.$emptyText.'</div>';
     // $outputEmpty = '<div id="liste_docs_actus"><h3 class="classe-h3">'.$view->get_title().'</h3>'.$emptyTextVue.'</div>';
     // drupal_set_message('$EmptyTextVue : '.$emptyTextVue.'status');
      //Affichage du texte vide

@@ -13,10 +13,23 @@
                 <td><?php ( print $node->field_lien_interne[0]['view']); /*Lien interne frais scolarité*/ ?></td>
             </tr>
              <?php endif; ?>
+             <?php if ($node->field_lien_externe[0]['view']
+                     OR $node->field_lien_externe[1]['view']
+                     OR $node->field_lien_externe[2]['view']
+                     OR $node->field_lien_externe[3]['view']
+                     ): ?>
              <?php if ($node->field_lien_externe[0]['view']): ?>
-            <tr>
-                <td><?php  (print $node->field_lien_externe[0]['view']); /*Lien externe onisep*/?></td>
-            </tr>
+            <tr><td><?php  (print $node->field_lien_externe[0]['view']); /*Lien externe*/?></td>
+            </tr><?php endif; ?>
+            <?php if ($node->field_lien_externe[1]['view']): ?>
+            <tr><td><?php  (print $node->field_lien_externe[1]['view']); /*Lien externe*/?></td></tr>
+                <?php endif; ?>
+            <?php if ($node->field_lien_externe[2]['view']): ?>
+            <tr><td><?php  (print $node->field_lien_externe[2]['view']); /*Lien externe*/?></td></tr>
+                <?php endif; ?>
+            <?php if ($node->field_lien_externe[3]['view']): ?>
+            <tr><td><?php  (print $node->field_lien_externe[3]['view']); /*Lien externe*/?></td></tr>
+                <?php endif; ?>
             <?php endif; ?>
              <?php if ($node->field_fiche_formation[0]['view']): ?>
             <tr>

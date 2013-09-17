@@ -633,7 +633,8 @@ h1.titre_pl a:hover{}
 #pageLycee_col_G3 h3 a:hover{}
 #pageLycee_col_G3 h4 a{}
 #pageLycee_col_G3 h4 a:hover{}
-
+/*== STYLE GLOBAL VUE EMBED*/
+.vue-txt-vide{text-align: center;font-weight: bold;font-style: italic;}
 /*--------- LISTE VUE FICHIERS DOCS JOINTS (Colonne G3)--------*/
 #liste_docs_actus h3.classe-h3{
     text-align: center;
