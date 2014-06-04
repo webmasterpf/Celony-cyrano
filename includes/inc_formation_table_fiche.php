@@ -34,6 +34,11 @@
              <?php if ($node->field_fiche_formation[0]['view']): ?>
             <tr>
                 <td><?php  (print $node->field_fiche_formation[0]['view']); /*Lien vers fiche pdf*/ ?></td>
+                
+            </tr>
+            <tr>
+                <td><?php  (print $node->field_fiche_formation[1]['view']); /*Lien vers fiche pdf*/ ?></td>
+                
             </tr>
             <?php endif; ?>
              <?php if ($node->field_passerelle[0]['view']): ?>
