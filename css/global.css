@@ -959,6 +959,9 @@ h1.titre_vdl{
 #pageVdl_col_G2 h3 a:hover{}
 #pageVdl_col_G2 h4 a{}
 #pageVdl_col_G2 h4 a:hover{}
+#pageVdl_col_G2 .views-exposed-form .views-exposed-widget .form-submit {
+    margin: 0 0 0 3.3em;
+}
 
 /*######-------- COLONNE G3 --------######*/
 #pageVdl_col_G3 h2{}
