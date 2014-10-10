@@ -60,3 +60,4 @@ include ($theme_path.'/includes/inc_formation_table_fiche.php');
   </div> <!-- /node-inner -->
 </div> <!-- /node-->
 <!--______________FIN NODE TPL CUSTOM________________ -->
+ <?php print_r();?>

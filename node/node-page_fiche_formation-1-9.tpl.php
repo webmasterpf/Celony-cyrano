@@ -1,4 +1,4 @@
-<!--______________NODE TPL POUR FICHE FORMATION CUSTOM : node-1-1.tpl.php________________ -->
+<!--______________NODE TPL POUR FICHE FORMATION CUSTOM : node-1-9.tpl.php________________ -->
 <div class="node <?php print $classes; ?>" id="node-<?php print $node->nid; ?>">
   <div class="node-inner">
 <!--______________COLONNE GAUCHE 1 : pole arts________________ -->
@@ -23,6 +23,15 @@ include ($theme_path.'/includes/inc_field_diapo_slideshow_multimage.php');
 </div><!-- fin colonne G1-->
 <!--______________COLONNE GAUCHE 2 : pole arts________________ -->
 <div id="fiche_col_G2">
+        <?php
+ //affichage du complement splash clignotant 
+   if ($node->field_info[0]['view']): ?>
+    <div class="starburst"><span><span><span>
+                    <?php print $node->field_info[0]['view'] ?>
+                </span></span></span></div>
+   <br class="clearBoth"/>
+        <?php endif; ?>
+     
     <?php
 global $theme_path;
 include ($theme_path.'/includes/inc_formation_table_fiche.php');
@@ -60,3 +69,4 @@ include ($theme_path.'/includes/inc_formation_table_fiche.php');
   </div> <!-- /node-inner -->
 </div> <!-- /node-->
 <!--______________FIN NODE TPL CUSTOM________________ -->
+ <?php print_r();?>

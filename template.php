@@ -51,7 +51,7 @@ if ( in_array($node->type,$lesTypes) ) {
          
               $tplfile = 'node-'.$node->type.'-'. $term->vid.'-'.$term->tid ;
               $vars['template_files'][] = $tplfile ;
-          //drupal_set_message('Term name : '.$term->name,'status');
+         //drupal_set_message('Term name : '.$term->name,'status');
            //drupal_set_message('Template file : '.$tplfile.'.tpl.php','status');
           }
     
