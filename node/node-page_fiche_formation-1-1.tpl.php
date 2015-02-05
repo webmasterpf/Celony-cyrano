@@ -72,4 +72,4 @@ include ($theme_path.'/includes/inc_formation_table_fiche.php');
   </div> <!-- /node-inner -->
 </div> <!-- /node-->
 <!--______________FIN NODE TPL CUSTOM________________ -->
- <!-- <pre> <?php print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
+ <!-- <pre> <?php //print_r($node); ?> </pre>-->   <!-- listage des variables du $content -->
