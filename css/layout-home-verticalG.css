@@ -242,7 +242,7 @@ text-decoration: none;
 }
 /* ANNONCE DEFILANTE*/
 /*--- ZONE ANNONCE ------*/
-#annonce{
+.annonce{
     color:#E2017B;
     font-size:16px;
     font-weight:bold;
@@ -252,11 +252,11 @@ text-decoration: none;
     width: 860px;
     display: block;
 }
-#annonce a{
+.annonce a{
     color: #93117E;
     text-decoration: none;
     font-weight: bold;
 }
-#annonce a:hover{
+.annonce a:hover{
     text-decoration: underline;
 }
